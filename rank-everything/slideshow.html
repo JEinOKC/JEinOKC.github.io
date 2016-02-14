@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  
+  <!--[if lt IE 9]>
+  <script src="lib/html5shim.js"></script>
+  <![endif]-->  
+  
+  <!-- These are some core styles the slideshow app requires -->
+  <link rel="stylesheet" href="lib/styles.css" />
+  
+  <!-- These are the styles you'll add to make the slides look great -->
+  <link rel="stylesheet" href="css/styles.css" />
+  
+  <title>Ranking Everything with Sylvester</title>
+</head>
+<body>
+  <header>
+    <h1>Navigation</h1>
+    <nav>
+      <ul>
+        <li><button id="prev-btn" title="Previous slide">Previous Slide</button></li>
+        <li><span id="slide-number"></span>/<span id="slide-total"></span></li>
+        <li><button id="next-btn" title="Next Slide">Next Slide</button></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="deck">
+    
+    <!-- Begin slides -->
+    <section>
+      <hgroup>
+        <h1 class="text-center">Ranking Everything w/ Sylvester</h1>
+        <h2 class="text-center">by James England</h2>
+      </hgroup>
+      <h3 class="text-center">@JEinOKC</h3>
+      <h3 class="text-center"><a href="https://www.321forms.com" target="_blank"><img style="width:200px; height: auto;" src="images/321-forms-logo.png" alt="321Forms" /></a></h3>
+      <h3 class="text-center"><a href="http://jameseng.land" target="_blank">http://jameseng.land</a></h3>
+      
+    </section>
+    <section>
+      <hgroup>
+        <h1>A little background...<span class="action"> Fall 2012</span></h1>
+        <h2 class="action text-center">I had the wild idea to learn how computer rankings are made</h2>
+      </hgroup>
+        <img src="images/kutcher-idea.gif" class="action" />
+    </section>
+    <section>
+      <hgroup>
+        <h1>A little background... Fall 2012</h1>
+        <h2 class="text-center">Eventually I discovered <a href="http://www.masseyratings.com/theory/massey97.pdf">Statistical Models Applied to the Rating of Sports Teams"</a> by Kenneth Massey</h2>
+      </hgroup>
+        <img src="images/st-massey.png" class="action"/>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>The Gist:</h1>
+      </hgroup>
+        <div style="position:fixed; right:0; top: 0;" class="text-center">
+          <img src="images/st-massey.png"/>
+        </div>
+        <ul>
+          <li class="action">Ratings based on "Linear Regression"</li>
+          <li class="action">Turns results of games into matrices & solve using <strong><i>math</i></strong></li>
+        </ul>
+
+        
+        <img src="images/math.gif" class="action" style="margin-top:20px;"/>
+        
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>The Weeds:</h1>
+        <h2 class="text-center">
+          Theorem 2.1
+          <img src="images/solve-for-b.png"/>
+        </h2>
+      </hgroup>
+        <div style="position:fixed; right:0; top: 0;" class="text-center">
+          <img src="images/st-massey.png"/>
+        </div>
+        <ul>
+          <li class="action"><strong>b</strong> = resulting ranking score</li>
+          <li class="action"><strong>X</strong> = n x n matrix of teams</li>
+          <li class="action"><strong>y</strong> = n x 1 matrix of results</li>
+        </ul>      
+        <img src="images/matrix-example.png" class="action"/>
+    </section>
+
+
+    <section>
+      <hgroup>
+        <h1>A little more history...</h1>
+        <h2>I built a complete model a few months later <span class="action">. . . using Java</span></h2>
+        <h2 class="action">because this is complex stuff and that's when you use Java, right?</h2>
+      </hgroup>
+      <ul class="action">
+        <li>created a <i>LAMP</i> web interface to display results <strong>*</strong></li>
+        <li>generated ratings locally</li>
+        <li>FTP'd json files to web server</li>
+      </ul>
+      <img src="images/gross.gif" class="action"/>
+      <p class="action" style="font-size: 10px;" >* Did at least get my feet wet with AngularJS</p>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Discovered Sylvester</h1>
+      </hgroup>
+      <img src="images/sylvester.gif"/>
+      <div class="action" style="border:5px solid #999; background:white; margin:10px; padding:10px;" >
+        <p>
+          Sylvester is a vector, matrix and geometry library for JavaScript, that runs in the browser and on the server side. It includes classes for modelling vectors and matrices in any number of dimensions, and for modelling infinite lines and planes in 3-dimensional space. It lets you write object-oriented easy-to-read code that mirrors the maths it represents.
+        </p>
+      </div>
+
+      <ul>
+        <li class="action">Original Project - <a href="http://sylvester.jcoglan.com/">http://sylvester.jcoglan.com/</a></li>
+        <li class="action">Node.js Implementation - <a href="https://github.com/NaturalNode/node-sylvester">https://github.com/NaturalNode/node-sylvester</a></li>
+      </ul>
+      
+    </section>
+
+    <section>
+      <img src="images/lamp.gif"/>
+      <img src="images/mean.jpg" style="width:300px; margin-top:50px;" class="action"/>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Getting MEAN with Sylvester</h1>
+
+      </hgroup>
+        <h2 class="text-center">Remember:</h2>
+        <img src="images/solve-for-b.png"/>
+        
+        <pre style="overflow:auto; height:350px;" class="action">
+          var matrix_X = myMatrices.gameMatrix;//an nxn matrix of games played
+          var matrix_Y = myMatrices.diffMatrix;//an nx1 matrix of game results
+          var matrix_xTrans = matrix_X.transpose();
+          var xTx = matrix_xTrans.x(matrix_X);
+          var xTy = matrix_xTrans.x(matrix_Y);
+
+
+          var xTx_array = xTx.elements;
+          var xTy_array = xTy.elements;
+
+          /*
+            Defining Full Rank:
+            
+            A matrix is said to have full rank if its rank equals the largest possible for a matrix of the same dimensions, which is the lesser of the number of rows and columns
+
+            To Obtain 'full rank': 
+            nth row of xTx is all 1s
+            nth row of xTy are all 0s
+
+            By setting row of xTy to 0, that means that 0 will be average. As values increase, ranking is improved
+          */
+
+          for(var i=0;i&lt;xTx_array[xTx_array.length-1].length;i++){
+            xTx_array[xTx_array.length-1][i] = 1;
+          }
+            
+
+          xTx = Matrix.create(xTx_array);
+
+          for(i=0;i&lt;xTy_array[xTy_array.length-1].length;i++){
+            xTy_array[xTy_array.length-1][i] = 0;
+          }
+            
+
+          xTy = Matrix.create(xTy_array);
+          
+          var xTx_Inverse = xTx.inv();
+          if(xTx_Inverse !== null){
+            console.log('inverse was created. Things going well..');
+            return xTx_Inverse.x(xTy);  //BOOM!!
+          }
+          
+
+          console.log("matrix is singular. Cannot create a ranking");
+
+          throw "matrix is singular. Cannot create a ranking";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </pre>
+
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>The Results</h1>
+        <h2 class="action text-center">
+          Awesome!!
+          <img src="images/fistpump.gif"/>
+        </h2>
+      </hgroup>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>The Results</h1>
+        
+        <ul>
+          <li>Actually faster than Java implementation</li>
+          <li class="action">No more FTP'ing</li>
+          <li class="action">Generate new ratings with a click of a button when I wake up on Sunday mornings</li>
+
+          <img class="action" style="margin-top:50px;" src="images/phone-bed.gif"/>
+
+        </ul>
+
+      </hgroup>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1 class="text-center">
+          Ranking Everything!!!!!
+          <img class="action" src="images/everything.gif"/>
+        </h1>
+        <h2 class="action">
+          What else could use rankings like this?
+        </h2>
+      </hgroup>
+      <ul>
+        <li class="action">complex situations where results aren't necessary transitive</li>
+        <li class="action">'Best of' lists where popularity saturates actual value<span class="action"> - like <strong>The Academy Awards</strong></span><span class="action">, <strong>Favorite TV Shows</strong></span><span class="action">, <strong>Greatest Song Ever</strong></span></li>
+      </ul>
+
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>
+          A (bad) Example
+        </h1>
+        <h2 class="action">
+          The Greatest Song Ever
+        </h2>
+      </hgroup>
+      <p class="action text-center" style="font-size:14px;">
+        <img src="images/greatest-song-ever.png" style="height:400px; width:auto"/>
+        <a href="https://en.wikipedia.org/wiki/List_of_songs_considered_the_best" target="_blank">https://en.wikipedia.org/wiki/List_of_songs_considered_the_best</a>
+      </p>
+      
+      <div class="action"  style="right:0; bottom:50px; position:fixed;">
+        <img src="images/reaction.gif"/>
+        <p class="text-center" style="color:green; background-color:black; padding:10px;"><strong>Toxic?</strong></p>
+      </div>
+
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>
+          2015 Academy Awards
+        </h1>
+        <h2>
+          Using Linear Regression
+        </h2>
+
+      </hgroup>
+
+        <div style="width:45%; float:left">
+          <img src="images/oscars.png" class="action"/>
+        </div>
+        <div>
+          <ul>
+            <li class="action">Put out a link for people to vote head-to-head on their favorite nominated movies</li>
+            <li class="action">They could only vote on movies that they'd seen</li>
+            <li class="action">Actual Best Picture winner (<strong>Birdman</strong>) had most wins. <strong>Selma</strong> had highest rating, best winning %, but fewer wins</li>
+            <li class="action">Selma was released very late in December and it was believed that many voters did not have time to see it before turning in their votes</li>
+          </ul>
+        </div>
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Live Demo</h1>
+      </hgroup>
+      <img src="images/do-it-live.gif">
+    </section>
+
+    <section>
+      <hgroup>
+        <h1>Links</h1>
+      </hgroup>
+
+      <ul>
+        
+        <li>England Ratings - <a href="http://jameseng.land/Rank" target="_blank">http://jameseng.land/Rank</a></li>
+        <li>Oscar Matchups - <a href="http://jameseng.land/Oscars" target="_blank">http://jameseng.land/Oscars</a></li>
+        <li>GitHub Project - <a href="https://github.com/JEinOKC/generic-ranking-methods" target="_blank">https://github.com/JEinOKC/generic-ranking-methods</a></li>
+        <li><strong>npm install generic-ranking-methods</strong></li>
+        <li>Massey College Football Ranking Composite - <a href="http://www.masseyratings.com/cf/compare.htm" target="_blank">http://www.masseyratings.com/cf/compare.htm</a></li>
+      </ul>
+      
+    </section>
+
+    <section>
+      <hgroup>
+        <h1 class="text-center">Ranking Everything w/ Sylvester</h1>
+        <h2 class="text-center">by James England</h2>
+      </hgroup>
+      <h3 class="text-center">@JEinOKC</h3>
+      <h3 class="text-center"><a href="https://www.321forms.com" target="_blank"><img style="width:200px; height: auto;" src="images/321-forms-logo.png" alt="321Forms" /></a></h3>
+      <h3 class="text-center"><a href="http://jameseng.land" target="_blank">http://jameseng.land</a></h3>
+      
+    </section>
+
+  </div>
+  <!-- /deck -->
+  <script src="lib/jquery-1.5.2.min.js"></script>
+  <script src="lib/jquery.jswipe-0.1.2.js"></script>  
+  <script src="lib/htmlSlides.js"></script>
+  <script>
+    //Do our business when the DOM is ready for us
+    $(function() {
+      
+      //You can trigger Javascript based on the slide number like this:
+      $('html').bind('newSlide', function(e, id) { 
+        switch(id) {
+          case 2:
+            console.log('This is the second slide.');;
+            break;
+          case 3:
+            console.log('Hello, third slide.');
+            break;
+        }
+      });
+
+      //One little option: hideToolbar (boolean; default = false)
+      htmlSlides.init({ hideToolbar: true });
+      
+    });
+  </script>
+  </body>
+</html>
