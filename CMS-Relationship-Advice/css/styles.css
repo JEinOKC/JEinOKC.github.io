@@ -19,6 +19,7 @@ body{ background:#f5f6f6; }
 
 
 #deck div.one-third { display:inline-block; width:33%; overflow-x:hidden; }
+#deck div.two-thirds { display:inline-block; width:66%; overflow-x:hidden; }
 
 #deck div.faux-tinder{ border:1px solid #ccc; background-color: white; height:500px; width:370px;}
 	#deck div.faux-tinder .tinder-top{height:40px; width: 100%; background-image: url('../images/tinder-top.png'); background-position: center; background-repeat: no-repeat; background-size: cover;}
