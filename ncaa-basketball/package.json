@@ -1,0 +1,20 @@
+{
+  "name": "ncaa-basketball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "express": "^4.14.1",
+    "generic-ranking-methods": "^1.0.4",
+    "linear-algebra": "^3.1.3",
+    "lodash": "^4.17.4",
+    "mathjs": "^3.9.0",
+    "request": "^2.79.0"
+  }
+}

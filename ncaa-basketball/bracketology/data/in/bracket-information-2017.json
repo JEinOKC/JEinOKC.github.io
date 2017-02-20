@@ -1,0 +1,102 @@
+{
+  "finalFour" : [
+    ["East","South"],
+    ["West","Midwest"]
+  ],
+  "regions": [
+    {
+      "id": "East",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
+    },
+    {
+      "id": "Midwest",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
+    }
+  ],
+  "teams": {
+    "East": [
+      "Villanova",
+      "West Virginia",
+      "Duke",
+      "Florida",
+      "Cincinnati",
+      "Wisconsin",
+      "SMU",
+      "USC",
+      "Indiana",
+      "Rhode Island",
+      "Arkansas",
+      "Miami FL / Texas Tech",
+      "ETSU",
+      "Princeton",
+      "Boston Univ",
+      "Morgan St / F Dickinson"
+    ],
+    "South": [
+      "Kentucky",
+      "Baylor",
+      "North Carolina",
+      "Oregon",
+      "Xavier",
+      "Minnesota",
+      "South Carolina",
+      "Michigan St",
+      "Dayton",
+      "Pittsburgh",
+      "UNC Wilmington",
+      "Vermont",
+      "Marshall",
+      "UNC Asheville",
+      "N Dakota St",
+      "CS Northridge / New Orleans"
+    ],
+    "Midwest": [
+      "Kansas",
+      "Florida St",
+      "Creighton",
+      "Louisville",
+      "Arizona",
+      "Notre Dame",
+      "Iowa St",
+      "Maryland",
+      "Seton Hall",
+      "Wichita St",
+      "Northwestern",
+      "Oakland",
+      "FL Gulf Coast",
+      "Belmont",
+      "Ga Southern",
+      "Rider"
+    ],
+    "West": [
+      "UCLA",
+      "Gonzaga",
+      "Virginia",
+      "Butler",
+      "Purdue",
+      "St Mary's CA",
+      "Clemson",
+      "Virginia Tech",
+      "VA Commonwealth",
+      "TCU",
+      "Illinois / MTSU",
+      "Boise St",
+      "New Mexico St",
+      "Ohio",
+      "TX Southern",
+      "Southern Utah"
+    ]
+  }
+}
