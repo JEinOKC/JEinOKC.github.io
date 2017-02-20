@@ -163,7 +163,7 @@ class Bracketology{
 			for(var i=0;i<this.ratingsArray.length;i++){
 				if(teamName == this.ratingsArray[i].team_name){
 					// console.log(teamName+"'s rating is " +this.ratingsArray[i].rating[0]);
-					return this.ratingsArray[i].rating[0];
+					return this.ratingsArray[i].rating;
 				}
 			}
 		}
