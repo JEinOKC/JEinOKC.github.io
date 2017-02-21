@@ -332,6 +332,18 @@
 
 	};
 
+	var scrollToWinner = function(){
+
+		var el = $(".game-TournamentWinner");
+		var elOffset = el.offset().top;
+		
+		
+		$('html, body').animate({
+	        scrollTop: elOffset - 200
+	    }, 1500);
+
+	}
+
 	var generateBracket = function(e){
 		// console.log('click!!');
 		var myButton = $(e.target);
@@ -376,6 +388,8 @@
 
 		}
 
+		scrollToWinner();
+
 		// console.log(rounds);
 
 
@@ -392,6 +406,39 @@
 		myInput.prop('value',evenRatingsWeight);
 		ratingsWeight=evenRatingsWeight;
 	};
+
+	var buildBracketInstructions = function(){
+		var instructions = $('<div>').addClass('instructions')
+								.append(
+									$('<p>').addClass('text-right')
+										.append(
+											$('<a>').prop('href','//twitter.com/JEinOKC').html('@JEinOKC')
+										)
+								)
+								.append(
+									$('<div>')
+										.append(
+											$('<h5>').text('Instructions')
+										)
+										.append(
+											$('<dl>')
+												.append(
+													$('<dt>').text('Use the slider to change the sensitivity of predictions')
+												)
+												.append(
+													$('<dd>').text('keep the slider in the middle for the best accuracy. Move it to the right if you hate adventure.')
+												)
+												.append(
+													$('<dt>').text('Manually select a game\'s winner by clicking on their name')
+												)
+												.append(
+													$('<dd>').text('Allow your favorite team to skate unskathed all the way into the championship game and just generate everything else.')
+												)
+										)
+								);
+		return instructions;
+
+	}
 
 	var buildBoard = function(){
 
@@ -410,42 +457,62 @@
 			var bracketNodes = myBracket.getBracket();
 
 			var main = $('main');
+
 			main.empty();
-			
-			
 
-			main.append(
-				$('<label>')
+			main
+
 				.append(
-					$('<span>').text('madness |').prop('title','Ratings be damned. Bring on the "madness"')
-				)
-				.append(
-					$('<input>')
-						.addClass('ratingsSlider')
-						.prop('type','range')
-						.prop('step',1)
-						.prop('min',minRatingsWeight)
-						.prop('max',(minRatingsWeight*-1))
-						.prop('value',ratingsWeight)
-						.change(ratingsWeightUpdater)
-				)
-				.append(
-					$('<span>').text('| march').prop('title','top rated teams will "March" towards the championship')
-				)
+					$('<div>')
+						.addClass('row')
+						.append(
+							$('<div>')
+								.addClass('options-column').addClass('col-xs-12').addClass('col-sm-12').addClass('col-md-6')
+								.append(
+									$('<label>')
+										.addClass('slider-holder')
+										.append(
+											$('<span>').addClass('madness-text').text('madness |').prop('title','Ratings be damned. Bring on the "madness"')
+										)
+										.append(
+											$('<input>')
+												.addClass('ratingsSlider')
+												.prop('type','range')
+												.prop('step',1)
+												.prop('min',minRatingsWeight)
+												.prop('max',(minRatingsWeight*-1))
+												.prop('value',ratingsWeight)
+												.change(ratingsWeightUpdater)
+										)
+										.append(
+											$('<span>').addClass('march-text').text('| march').prop('title','top rated teams will "March" towards the championship')
+										)
+										.append(
+											$('<span>')
+										)
+									)
+
+
+						)
+						.append(
+							$('<div>')
+								.addClass('options-column').addClass('col-xs-12').addClass('col-sm-12').addClass('col-md-6').addClass('text-right')
+								.append(
+									$('<button>').text('Clear Board').addClass('btn').addClass('btn-danger').click(buildBoard)
+								)
+								.append(
+									$('<button>').text('Reset Slider').addClass('btn').addClass('btn-default').click(resetSlider)
+								)
+								.append(
+									$('<button>').text('Generate Bracket').addClass('btn').addClass('btn-success').click(generateBracket)
+								)
+						)
+				
+								
 			);
 
-			main.append(
-				$('<button>').text('Generate Bracket').addClass('btn').addClass('pull-right').addClass('btn-success').click(generateBracket)
-			);
 
-			main.append(
-				$('<button>').text('Reset Slider').addClass('btn').addClass('pull-right').addClass('btn-default').click(resetSlider)
-			);
-
-			main.append(
-				$('<button>').text('Clear Board').addClass('btn').addClass('pull-right').addClass('btn-danger').click(buildBoard)
-			);
-
+			main.append($('<div>').addClass('clearfix'));
 			main.append($('<hr>'));
 
 			
@@ -453,7 +520,7 @@
 
 
 
-			var bracketDiv = $('<div>').addClass('bracket');
+			var bracketDiv = $('<div>').addClass('bracket').append(buildBracketInstructions());
 			main.append(bracketDiv);
 
 			
