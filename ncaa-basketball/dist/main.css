@@ -152,7 +152,6 @@ body{
 	cursor: help;
 	position: relative;
 	display: inline-block;
-	width: 70px;
 }
 
 .slider-holder span.madness-text:before,
