@@ -5,7 +5,25 @@ body{
 	  font-size: 10px;
 	  padding:10px;
 	  line-height:1.4em;
+
+	  
 	}
+
+	.logo-bg {
+  		background-image: url('transparent-basketball.png');
+		background-repeat: no-repeat;
+		background-position: top center;
+		opacity: .05;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+
+	}
+
+
 	/*
 	 *  Flex Layout Specifics
 	*/
@@ -20,7 +38,7 @@ body{
 
 	main >div.bracket {
 		border-top: 1px solid #999;
-		background-color: #DDD;
+		background-color: rgba(0,0,0,.15) /*#DDD*/;
 		margin: -20px -10px;
 		display:flex;
 		flex-direction:row;	
