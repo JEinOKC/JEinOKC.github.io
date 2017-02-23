@@ -445,7 +445,7 @@
 
 		$.when(
 			$.get('https://static.jameseng.land/data/ncaabb/2016.2017/ratings-latest.json'),
-			$.get('bracketology/data/in/bracket-information-2017.json')
+			$.get('https://static.jameseng.land/bracketology/data/in/bracket-information-2017.json')
 		).done(function(ratingsResp,bracketResp){
 
 			var bracketJSON = bracketResp[0];
