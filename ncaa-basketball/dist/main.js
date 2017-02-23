@@ -29,7 +29,7 @@
 
 		var spacer1 = $('<li>').addClass('spacer').html('&nbsp;');
 // console.log(region);
-		var topTeam = $('<li>')
+		topTeam = $('<li>')
 							.addClass('game')
 							.addClass('game-top')
 							.html(topText)
@@ -47,7 +47,7 @@
 			spacer2.addClass(spacerClass);
 		}
 		
-		var bottomTeam = $('<li>')
+		bottomTeam = $('<li>')
 							.addClass('game')
 							.addClass('game-bottom')
 							.html(bottomText)
@@ -147,7 +147,7 @@
 
 		var ancestor = $('li.game-top.game-'+ancestorId);
 		if(gamesWithLowerNumber > 1){
-			ancestor = $('li.game-bottom.game-'+ancestorId)
+			ancestor = $('li.game-bottom.game-'+ancestorId);
 		}
 
 		var ancestorHTML = ancestor.html();
@@ -199,17 +199,19 @@
 		var gamesObj = {};
 		var regionOrderArray = [];
 		var finalFour = myBracket.data.finalFour;
-		for(var i=0;i<finalFour.length;i++){
-			for(var j=0;j<finalFour[i].length;j++){
+		var regionGames = 0;
+		var i=0,j=0,k=0;
+		for(i=0;i<finalFour.length;i++){
+			for(j=0;j<finalFour[i].length;j++){
 				regionOrderArray.push(finalFour[i][j]);
 			}
 		}
 
-		for(var k=0;k<regionOrderArray.length;k++){
+		for(k=0;k<regionOrderArray.length;k++){
 			let region = regionOrderArray[k];
 
 			regionCount++;
-			var regionGames = myBracket.findRegionGames(region);
+			regionGames = myBracket.findRegionGames(region);
 
 			var gamesToBuildInRegion = {};
 
@@ -239,7 +241,7 @@
 				let rightTeam = typeof tmpGame.right !== 'undefined' ? tmpGame.right : {'name':''};
 				
 				//this will allow us to label the regions using classes. looking for the mid element to make it look the best
-				var spacerClass = gameCount == (Object.keys(gamesToBuildInRegion).length/2) && level == 0 ? 'region-'+region : null;
+				var spacerClass = gameCount == (Object.keys(gamesToBuildInRegion).length/2) && level === 0 ? 'region-'+region : null;
 				
 				buildGame(region,currUL,leftTeam,rightTeam,tmpGame,spacerClass);
 				gameCount+=1;
@@ -263,7 +265,7 @@
 			};
 			var bottomTeam = {
 				'element' : gameArray[1]
-			}
+			};
 
 			//if a winner was already chosen, keep the same winner
 			if(topTeam.element.hasClass('winner')){
@@ -301,7 +303,7 @@
 				underdogTeam.win_odds = 1-favoredTeam.win_odds;
 			}
 			else{//closer to 50% odds
-				let diffFrom50=favoredTeam.win_odds-.5;
+				let diffFrom50=favoredTeam.win_odds-0.5;
 				favoredTeam.win_odds = favoredTeam.win_odds - (Math.abs(ratingSkewer)*diffFrom50/100);
 				underdogTeam.win_odds = 1-favoredTeam.win_odds;
 			}
@@ -342,7 +344,7 @@
 	        scrollTop: elOffset - 200
 	    }, 1500);
 
-	}
+	};
 
 	var generateBracket = function(e){
 		// console.log('click!!');
@@ -438,14 +440,14 @@
 								);
 		return instructions;
 
-	}
+	};
 
 	var buildBoard = function(){
 
 
 		$.when(
 			$.get('https://static.jameseng.land/data/ncaabb/2016.2017/ratings-latest.json'),
-			$.get('https://static.jameseng.land/bracketology/data/in/bracket-information-2017.json')
+			$.get('https://static.jameseng.land/ncaa-basketball/bracketology/data/in/bracket-information-2017.json')
 		).done(function(ratingsResp,bracketResp){
 
 			var bracketJSON = bracketResp[0];
@@ -539,7 +541,7 @@
 				level+=1;
 
 			}
-			while(roundGameCount >=1)
+			while(roundGameCount >=1);
 
 
 			//need to connect the regions for the championship games
@@ -597,7 +599,7 @@
 
 		});
 
-	}
+	};
 
 	buildBoard();
 

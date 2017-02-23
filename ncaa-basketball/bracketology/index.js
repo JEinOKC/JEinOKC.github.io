@@ -1,7 +1,3 @@
-'use strict';
-
-
-
 class Bracketology{
 	constructor(data,ratingsArray){
 		this.data = data;
@@ -44,7 +40,7 @@ class Bracketology{
 			'right' : null,
 			'winner' : null,
 			'score' : null
-		}
+		};
 	}
 
 	placeTeamInNodeArray(nodeArray,team,leftOrRight){
@@ -52,18 +48,19 @@ class Bracketology{
 		if(typeof team !== 'object'){
 			team.value = team;
 		}
+		var newNode = null;
 
 		if(leftOrRight == 'left'){
 			//left branches get filled first, so only the last one needs to be checked
 			if(nodeArray[nodeArray.length-1].left === null){
 				nodeArray[nodeArray.length-1].left = team;
-				team.ancestor = nodeArray[nodeArray.length-1]
+				team.ancestor = nodeArray[nodeArray.length-1];
 				return nodeArray;
 
 			}
 
 			//all branches are full. add a node to the nodeArray and with current team on the left
-			var newNode = this.createNode();
+			newNode = this.createNode();
 			newNode.left = team;
 			team.ancestor = newNode;
 			nodeArray.push(newNode);
@@ -72,7 +69,7 @@ class Bracketology{
 			
 		else{
 			for(var i=nodeArray.length-1;i>=0;i--){//if all left branches are taken, go for the right branches
-				if(nodeArray[i].right == null){
+				if(nodeArray[i].right === null){
 					nodeArray[i].right = team;
 					team.ancestor=nodeArray[i];
 					return nodeArray;
@@ -80,7 +77,7 @@ class Bracketology{
 			}
 
 			//all branches are full. add a node to the nodeArray and with current team on the left
-			var newNode = this.createNode();
+			newNode = this.createNode();
 			newNode.right = team;
 			team.ancestor=newNode;
 			nodeArray.push(newNode);
@@ -103,7 +100,7 @@ class Bracketology{
 
 			for(var i=0;i<arrayLen;i++){
 
-				let leftOrRight = (i%2==0?'left':'right');
+				let leftOrRight = (i%2===0?'left':'right');
 				newNodeArray = this.placeTeamInNodeArray(newNodeArray,nodeArray[i],leftOrRight);
 			}
 
@@ -148,7 +145,7 @@ class Bracketology{
 
 		teamName = teamName.replace(/^\d+\.\s*/, '').replace(/ /g,"_");
 		// console.log(teamName);
-		if(teamName == ''){
+		if(teamName === ''){
 			return 0;
 		}
 
@@ -169,9 +166,9 @@ class Bracketology{
 		}
 
 		// return 0;
-		if(teamName != '&nbsp;'){
-			console.log('cannot find a rating for ' + teamName);	
-		}
+		// if(teamName != '&nbsp;'){
+		// 	console.log('cannot find a rating for ' + teamName);	
+		// }
 		
 		return Math.random().toFixed(4);
 	}
@@ -224,44 +221,7 @@ class Bracketology{
 		}
 
 		return allRegions;
-		//at this point, all regions are built. need to connect them together
-// console.log(allRegions);
-// console.log(this.data.finalFour);
-
-		var FinalFourNode1 = this.createNode();
-			FinalFourNode1.left = allRegions[this.data.finalFour[0][0]];
-			FinalFourNode1.right = allRegions[this.data.finalFour[0][1]];
-			FinalFourNode1.foo="FinalFourNode1";
-
-			allRegions[this.data.finalFour[0][0]].ancestor=FinalFourNode1;
-			allRegions[this.data.finalFour[0][1]].ancestor=FinalFourNode1;
-
-		var FinalFourNode2 = this.createNode();
-			FinalFourNode2.left = allRegions[this.data.finalFour[1][0]];
-			FinalFourNode2.right = allRegions[this.data.finalFour[1][1]];
-			FinalFourNode2.foo="FinalFourNode2";
-
-			allRegions[this.data.finalFour[1][0]].ancestor=FinalFourNode2;
-			allRegions[this.data.finalFour[1][1]].ancestor=FinalFourNode2;
-
-		var ChampionshipNode = this.createNode();
-			ChampionshipNode.left = FinalFourNode1;
-			ChampionshipNode.right = FinalFourNode2;
-
-			FinalFourNode1.ancestor = ChampionshipNode;
-			FinalFourNode2.ancestor = ChampionshipNode;
-
-		var returnObj = {'NCAA':ChampionshipNode};
-		return returnObj;
-		// var newNode = 
-		// 	newNode.left = team;
-		// 	team.ancestor = newNode;
-		// 	nodeArray.push(newNode);
-
-		// return allRegions;
-
-		// console.log(JSON.stringify(allRegions,undefined,4));
-
+		
 
 	}
 
@@ -283,6 +243,7 @@ class Bracketology{
 		}
 
 		if(stupidString.length > 0){
+			/* jshint devel: true */
 			console.log(stupidString);
 		}
 
@@ -292,11 +253,11 @@ class Bracketology{
 		}
 
 		if(
-			typeof myNode.name !== 'undefined' 
-			&& 
+			typeof myNode.name !== 'undefined' && 
 			typeof myNode.seed !== 'undefined'
 													){
 			// console.log('('+leftOrRight+') - ' + myNode.seed + '. ' + myNode.name);
+		/* jshint devel: true */
 		console.log(myNode.seed + '. ' + myNode.name);
 		// console.log('('+nodeDepth+') - ' + myNode.seed + '. ' + myNode.name);
 		}
@@ -409,6 +370,7 @@ class Bracketology{
 
 	print(){
 		for(var region in this.nodeBracket){
+			/* jshint devel: true */
 			console.log('Region ' + region);
 			console.log('------------------');
 			this.printRegion(this.nodeBracket[region]);
@@ -416,11 +378,13 @@ class Bracketology{
 	}
 
 
-}; 
+}
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+	/* jshint node: true */
 	module.exports = Bracketology;
 }
 else{
+	/* jshint browser: true */
   	window.Bracketology = Bracketology;
 }
