@@ -446,7 +446,7 @@
 
 
 		$.when(
-			$.get('https://static.jameseng.land/data/ncaabb/2016.2017/ratings-latest.json'),
+			$.get('https://static.jameseng.land/ncaa-basketball/data/ratings-latest.json'),
 			$.get('https://static.jameseng.land/ncaa-basketball/bracketology/data/in/bracket-information-2017.json')
 		).done(function(ratingsResp,bracketResp){
 
@@ -500,13 +500,13 @@
 							$('<div>')
 								.addClass('options-column').addClass('col-xs-12').addClass('col-sm-12').addClass('col-md-6').addClass('text-right')
 								.append(
-									$('<button>').text('Clear Board').addClass('btn').addClass('btn-danger').click(buildBoard)
+									$('<button>').text('Clear Board').addClass('btn').addClass('btn-danger').addClass('clear-board-btn').click(buildBoard)
 								)
 								.append(
-									$('<button>').text('Reset Slider').addClass('btn').addClass('btn-default').click(resetSlider)
+									$('<button>').text('Reset Slider').addClass('btn').addClass('btn-default').addClass('reset-slider-btn').click(resetSlider)
 								)
 								.append(
-									$('<button>').text('Generate Bracket').addClass('btn').addClass('btn-success').click(generateBracket)
+									$('<button>').text('Generate Bracket').addClass('btn').addClass('btn-success').addClass('generate-bracket-btn').click(generateBracket)
 								)
 						)
 				

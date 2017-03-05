@@ -194,6 +194,7 @@ var buildRatings = function(teams,results){
 
 
 	fs.writeFileSync('./data/ratings-'+myDateString+'.json',JSON.stringify(teams, null, 4));
+	fs.writeFileSync('./data/ratings-latest.json',JSON.stringify(teams, null, 4));
 	fs.writeFileSync('./data/top-25-'+myDateString+'.json',JSON.stringify(top25, null, 4));
 
 };
