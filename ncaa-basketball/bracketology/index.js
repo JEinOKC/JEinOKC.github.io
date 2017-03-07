@@ -1,6 +1,7 @@
 class Bracketology{
 	constructor(data,ratingsArray){
 		this.data = data;
+		this.regionsMerged = false;
 		this.ratingsArray=ratingsArray;
 		this.ratings = {};
 
@@ -111,6 +112,163 @@ class Bracketology{
 
 	determineWinner(team1,team2,weight){
 		/*should look up the ratings for each team, considering the weigh, and return a winner*/
+	}
+
+	findGameById(gameId){
+		for(var key in this.nodeBracket){
+			var myRegion = this.nodeBracket[key];
+			var myRegionGames = this.findRegionGames(key);
+
+			for(var i=0;i<myRegionGames.length;i++){
+				var currentGame = myRegionGames[i];
+
+				if(gameId == currentGame.gameUUID){
+					// console.log(currentGame);
+					return currentGame;
+				}
+
+				while(typeof currentGame !== 'undefined'){
+					currentGame = currentGame.ancestor;
+
+					if(typeof currentGame !== 'undefined'){
+						if(gameId == currentGame.gameUUID){
+							return currentGame;
+						}	
+					}
+				}
+			}
+
+		}
+
+		return null;
+	}
+
+	mergeRegions(){
+		for(var key in this.nodeBracket){
+			var myRegion = this.nodeBracket[key];
+			// var myRegionGames = this.findRegionGames(key);
+
+			// console.log(myRegion);
+		}	
+
+		// console.log(this.data.finalFour);
+
+		if(typeof this.data.finalFour !== 'undefined'){
+
+
+
+			if(this.data.finalFour.length > 1){
+				var championshipNode = this.createNode();
+				championshipNode.gameUUID = 'ChampionshipGame';//this.getUUID();
+			}
+
+			for(var i=0;i<this.data.finalFour.length;i++){
+				var newNode = this.createNode();
+				newNode.gameUUID = this.data.finalFour[i][0] + this.data.finalFour[i][1];//this.getUUID();
+				newNode.left = this.nodeBracket[this.data.finalFour[i][0]][0];
+				this.nodeBracket[this.data.finalFour[i][0]][0].ancestor = newNode;
+				newNode.right = this.nodeBracket[this.data.finalFour[i][1]][0];
+				this.nodeBracket[this.data.finalFour[i][1]][0].ancestor = newNode;
+
+				newNode.ancestor = championshipNode;
+
+				let leftOrRight = (i%2===0?'left':'right');
+
+				if(leftOrRight == 'left'){
+					championshipNode.left = newNode;
+				}
+				else{
+					championshipNode.right = newNode;
+				}
+
+			}
+
+		}
+
+
+
+		this.regionsMerged = true;
+
+		return;
+	}
+
+	setWinner(gameId,winnerName){
+		if(!this.regionsMerged){
+			// console.log('regions havent merged yet. Do That!!');
+			this.mergeRegions();
+		}
+
+		winnerName = winnerName.replace(/^\d+\.\s*/, '');//remove seed number that may be passed through
+		// console.log(this.nodeBracket);
+
+		var myGame = this.findGameById(gameId);
+
+
+		var winningDirection = 'top';
+		if(myGame === null){//game does not exist
+			// console.log('game ' + gameId + ' does not exist');
+			return;
+		}
+
+		if(myGame.left.name == winnerName){
+			myGame.winner = myGame.left;
+		}
+		else if(myGame.right.name == winnerName){
+			myGame.winner = myGame.right;
+		}
+		else{
+			return;
+		}
+
+		var nextSpot = null;
+
+		// console.log({
+		// 	'myGame' : myGame
+		// });
+
+		if(typeof myGame.ancestor === 'undefined'){
+			// console.log(myGame);
+			if(myGame.gameUUID == 'ChampionshipGame'){
+				// console.log(this.nodeBracket);
+				return {
+					'direction' : 'top'
+				};
+			}
+			return;
+		}
+
+
+		if(myGame.ancestor.left.gameUUID == gameId){
+			nextSpot = myGame.ancestor.left;
+		}
+		else if(myGame.ancestor.right.gameUUID == gameId){
+			winningDirection = 'bottom';
+			nextSpot = myGame.ancestor.right;
+		}
+		else{
+			return;
+		}
+
+		nextSpot.name = myGame.winner.name;
+		nextSpot.rating = myGame.winner.rating;
+		nextSpot.seed = myGame.winner.seed;
+
+		// var nextGame = this.findGameById(nextSpot.gameUUID);
+		
+
+		// console.log({
+		// 	'task':'set winner',
+		// 	'gameId' : gameId,
+		// 	'winnerName' : winnerName,
+		// 	'myGame' : myGame,
+		// 	'nextSpot' : nextSpot,
+		// 	'nodeBracket' : this.nodeBracket,
+		// 	'nextGame' : nextGame
+		// });
+
+		return {
+			'direction' : winningDirection//top or bottom
+		};
 	}
 
 	lookupRating(teamName){

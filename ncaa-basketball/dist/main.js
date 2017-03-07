@@ -119,14 +119,20 @@
 
 	//will set a value of the ancestor based on the winner. will also return that ancestor element
 	var setWinner = function(myEl,ancestorId){
+		var myJqueryEl = $(myEl);
 		var ancestorGameLis = findElByGameUUID(ancestorId);
-
 		var arrayOfIndexes = [];
-
 		var indexOfMyEl = getIndexOfElement(myEl);
-
 		var gamesWithSharedAncestor = $('li.ancestor-'+ancestorId);
-		var teamsWithSameGame = $('li.game-'+$(myEl).data('gameId'));
+		var teamsWithSameGame = $('li.game-'+myJqueryEl.data('gameId'));
+
+		var result = myBracket.setWinner(myJqueryEl.data('gameId'),myJqueryEl.text());
+
+		if(typeof result === 'undefined'){
+			return;
+		}
+
+		// console.log(result);
 
 		// console.log(gamesWithSharedAncestor);
 
@@ -143,15 +149,18 @@
 		}
 
 		teamsWithSameGame.removeClass('winner');
+		$('.game-TournamentWinner').addClass('winner');
 		$(myEl).addClass('winner');
 
-		var ancestor = $('li.game-top.game-'+ancestorId);
-		if(gamesWithLowerNumber > 1){
-			ancestor = $('li.game-bottom.game-'+ancestorId);
-		}
+
+
+		var ancestor = $('li.game-'+result.direction+'.game-'+ancestorId);
+		// if(gamesWithLowerNumber > 1){
+		// 	ancestor = $('li.game-bottom.game-'+ancestorId);
+		// }
 
 		var ancestorHTML = ancestor.html();
-		var myElHTML = $(myEl).html();
+		var myElHTML = myJqueryEl.html();
 
 
 
@@ -161,7 +170,7 @@
 		}
 
 		ancestor.html(myElHTML);
-		ancestor.prop('title',$(myEl).prop('title'));
+		ancestor.prop('title',myJqueryEl.prop('title'));
 
 		// .prop('title','rating = ' + myBracket.lookupRating(topText))
 
