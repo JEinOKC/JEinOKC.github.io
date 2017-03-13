@@ -1,7 +1,7 @@
 {
   "finalFour" : [
-    ["East","South"],
-    ["West","Midwest"]
+    ["East","West"],
+    ["Midwest","South"]
   ],
   "regions": [
     {
@@ -10,9 +10,9 @@
       "fullname": "East Region"
     },
     {
-      "id": "South",
-      "name": "South",
-      "fullname": "South Region"
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
     },
     {
       "id": "Midwest",
@@ -20,83 +20,83 @@
       "fullname": "Midwest Region"
     },
     {
-      "id": "West",
-      "name": "West",
-      "fullname": "West Region"
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
     }
   ],
   "teams": {
     "East": [
       "Villanova",
-      "West Virginia",
       "Duke",
+      "Baylor",
       "Florida",
-      "Cincinnati",
-      "Wisconsin",
+      "Virginia",
       "SMU",
-      "USC",
-      "Indiana",
-      "Rhode Island",
-      "Arkansas",
-      "Miami FL / Texas Tech",
+      "South Carolina",
+      "Wisconsin",
+      "Virginia Tech",
+      "Marquette",
+      "Providence / USC",
+      "UNC Wilmington",
       "ETSU",
-      "Princeton",
-      "Boston Univ",
-      "Morgan St / F Dickinson"
+      "New Mexico St",
+      "Troy",
+      "Mt St Mary / New Orleans"
     ],
     "South": [
-      "Kentucky",
-      "Baylor",
       "North Carolina",
-      "Oregon",
-      "Xavier",
+      "Kentucky",
+      "UCLA",
+      "Butler",
       "Minnesota",
-      "South Carolina",
-      "Michigan St",
+      "Cincinnati",
       "Dayton",
-      "Pittsburgh",
-      "UNC Wilmington",
-      "Vermont",
-      "Marshall",
-      "UNC Asheville",
-      "N Dakota St",
-      "CS Northridge / New Orleans"
+      "Arkansas",
+      "Seton Hall",
+      "Wichita St",
+      "Kansas St/ Wake Forest",
+      "MTSU",
+      "Winthrop",
+      "Kent St",
+      "N Kentucky",
+      "TX Southern"
     ],
     "Midwest": [
       "Kansas",
-      "Florida St",
-      "Creighton",
       "Louisville",
-      "Arizona",
-      "Notre Dame",
+      "Oregon",
+      "Purdue",
       "Iowa St",
-      "Maryland",
-      "Seton Hall",
-      "Wichita St",
+      "Creighton",
+      "Michigan",
+      "Miami FL",
+      "Michigan St",
+      "Oklahoma St",
       "Northwestern",
-      "Oakland",
-      "FL Gulf Coast",
-      "Belmont",
-      "Ga Southern",
-      "Rider"
+      "Rhode Island",
+      "Nevada",
+      "Vermont",
+      "Iona",
+      "NC Central / UC Davis"
     ],
     "West": [
-      "UCLA",
       "Gonzaga",
-      "Virginia",
-      "Butler",
-      "Purdue",
+      "Arizona",
+      "Florida St",
+      "West Virginia",
+      "Notre Dame",
+      "Maryland",
       "St Mary's CA",
-      "Clemson",
-      "Virginia Tech",
-      "VA Commonwealth",
-      "TCU",
-      "Illinois / MTSU",
-      "Boise St",
-      "New Mexico St",
-      "Ohio",
-      "TX Southern",
-      "Southern Utah"
+      "Northwestern",
+      "Vanderbilt",
+      "VCU",
+      "Xavier",
+      "Princeton",
+      "Bucknell",
+      "FL Gulf Coast",
+      "North Dakota",
+      "S Dakota St"
     ]
   }
 }
