@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import moment from 'moment';
 // import countdown from 'countdown';
 import momentCountdown from 'moment-countdown';
@@ -43,6 +43,7 @@ export default class Movie extends React.Component {
         <div className="center-align">
           <h1 className="App">{movieName} are {yesOrNo !== 'Yes' && 'only' } {this.state.howMuchLonger} {yesOrNo !== 'Yes' && 'away' }!!</h1>
         </div>
+        <p className="sub-info">In the meantime, visit <a href="https://jameseng.land">JAMESENG.LAND</a> to check out other amazing projects</p>
       </div>
     );
   }
