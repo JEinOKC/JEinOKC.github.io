@@ -36,7 +36,7 @@ var determinePointDiff = function(homeScore,roadScore,isInConference){
   	if(isInConference){
   		ratio = ratio * 1.1;
   	}
-console.log('ratio = ' + ratio);
+// console.log('ratio = ' + ratio);
     return ratio;
 }
 
@@ -208,19 +208,23 @@ myMasseyBBall.loadEverything()
 		// console.log(allGames[100]);		
 		let masseyGames = myMasseyBBall.getAllGames();
 		let HFA = getHomeFieldAdvantageAverage(masseyGames);
+		console.log('formatting games');
 		let formattedGames = formatGames(masseyGames,HFA);
+		console.log('formatting teams');
 		let formattedTeams = formatTeams(myMasseyBBall.getAllTeams());
 
 		//run the rankings
 		
 		try{
+			console.log('beginning the ranking process');
 			let results = rankingMethods.Run(formattedTeams, formattedGames);	
-			
+			console.log('results complete');
 			// let myMatrixWorker = new MatrixWorker();
 			// fs.writeFileSync('./data/teams.json',JSON.stringify(formattedTeams, null, 4));
 			// let results = myMatrixWorker.run(formattedTeams, formattedGames);
 			// fs.writeFileSync('./data/results.json',JSON.stringify(results, null, 4));
 			buildRatings(formattedTeams,results);
+			console.log('formatting complete');
 			// console.log(results);
 			console.log('done');
 		}

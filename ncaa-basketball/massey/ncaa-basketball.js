@@ -5,9 +5,9 @@ var parse = require('csv-parse/lib/sync');
 class MasseyBBall {
 	constructor(){
 		this.urls = {
-			'inter' : 'http://masseyratings.com/scores.php?s=292154&sub=11590&all=1&mode=1&format=1',
-			'intra' : 'http://masseyratings.com/scores.php?s=292154&sub=11590&all=1&mode=2&format=1',
-			'names' : 'http://masseyratings.com/scores.php?s=292154&sub=11590&all=1&mode=3&format=2'
+			'inter' : 'https://www.masseyratings.com/scores.php?s=298892&sub=11590&all=1&mode=1&format=1',
+			'intra' : 'https://www.masseyratings.com/scores.php?s=298892&sub=11590&all=1&mode=2&format=1',
+			'names' : 'https://www.masseyratings.com/scores.php?s=298892&sub=11590&all=1&mode=3&format=2'
 		};
 
 		this.teams = {};
@@ -143,6 +143,9 @@ class MasseyBBall {
 					this.processIntraResults(intraResults);
 					this.processInterResults(interResults);
 					this.nameTheTeams();
+					console.log('all games processed');
+
+					console.log(this.games);
 
 					//zip the results and the names
 					// this.nameTheGames();
