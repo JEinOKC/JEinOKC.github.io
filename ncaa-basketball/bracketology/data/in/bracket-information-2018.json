@@ -1,0 +1,102 @@
+{
+  "finalFour" : [
+    ["East","West"],
+    ["Midwest","South"]
+  ],
+  "regions": [
+    {
+      "id": "East",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
+    },
+    {
+      "id": "Midwest",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
+    }
+  ],
+  "teams": {
+    "East": [
+      "Villanova",
+      "Duke",
+      "Baylor",
+      "Florida",
+      "Virginia",
+      "SMU",
+      "South Carolina",
+      "Wisconsin",
+      "Virginia Tech",
+      "Marquette",
+      "Providence / USC",
+      "UNC Wilmington",
+      "ETSU",
+      "New Mexico St",
+      "Troy",
+      "Mt St Mary's / New Orleans"
+    ],
+    "South": [
+      "North Carolina",
+      "Kentucky",
+      "UCLA",
+      "Butler",
+      "Minnesota",
+      "Cincinnati",
+      "Dayton",
+      "Arkansas",
+      "Seton Hall",
+      "Wichita St",
+      "Kansas St/ Wake Forest",
+      "MTSU",
+      "Winthrop",
+      "Kent",
+      "N Kentucky",
+      "TX Southern"
+    ],
+    "Midwest": [
+      "Kansas",
+      "Louisville",
+      "Oregon",
+      "Purdue",
+      "Iowa St",
+      "Creighton",
+      "Michigan",
+      "Miami FL",
+      "Michigan St",
+      "Oklahoma St",
+      "Rhode Island",
+      "Nevada",
+      "Vermont",
+      "Iona",
+      "Jacksonville St",
+      "NC Central / UC Davis"
+    ],
+    "West": [
+      "Gonzaga",
+      "Arizona",
+      "Florida St",
+      "West Virginia",
+      "Notre Dame",
+      "Maryland",
+      "St Mary's CA",
+      "Northwestern",
+      "Vanderbilt",
+      "VA Commonwealth",
+      "Xavier",
+      "Princeton",
+      "Bucknell",
+      "FL Gulf Coast",
+      "North Dakota",
+      "S Dakota St"
+    ]
+  }
+}
