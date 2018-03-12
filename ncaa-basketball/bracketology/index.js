@@ -324,11 +324,16 @@ class Bracketology{
 		}
 
 		// return 0;
-		// if(teamName != '&nbsp;'){
-		// 	console.log('cannot find a rating for ' + teamName);	
-		// }
+		if(teamName != '&nbsp;'){
+			console.log('cannot find a rating for ' + teamName);	
+			// console.log('ratingsArray',this.ratingsArray);
+			// console.log('ratings',this.ratings);
+			// process.exit(1);
+		}
+
 		
-		return Math.random().toFixed(4);
+
+		return '-.9999';//Math.random().toFixed(4);
 	}
 
 	buildGames(){
@@ -416,7 +421,7 @@ class Bracketology{
 													){
 			// console.log('('+leftOrRight+') - ' + myNode.seed + '. ' + myNode.name);
 		/* jshint devel: true */
-		console.log(myNode.seed + '. ' + myNode.name);
+		console.log(myNode.seed + '. ' + myNode.name + ' ('+myNode.rating+')');
 		// console.log('('+nodeDepth+') - ' + myNode.seed + '. ' + myNode.name);
 		}
 
