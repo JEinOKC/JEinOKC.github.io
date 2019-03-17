@@ -1,0 +1,102 @@
+{
+  "finalFour" : [
+    ["East","West"],
+    ["Midwest","South"]
+  ],
+  "regions": [
+    {
+      "id": "East",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
+    },
+    {
+      "id": "Midwest",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
+    }
+  ],
+  "teams": {
+    "East": [
+      "Duke",
+      "Michigan St",
+      "LSU",
+      "Virginia Tech",
+      "Mississippi St",
+      "Maryland",
+      "Louisville",
+      "VCU",
+      "UCF",
+      "Minnesota",
+      "Belmont / Temple",
+      "Liberty",
+      "St Louis",
+      "Yale",
+      "Bradley",
+      "NC Central / N Dakota St"
+    ],
+    "South": [
+      "Virginia",
+      "Tennessee",
+      "Purdue",
+      "Kansas St",
+      "Wisconsin",
+      "Villanova",
+      "Cincinnati",
+      "Mississippi",
+      "Oklahoma",
+      "Iowa",
+      "Saint Mary's",
+      "Oregon",
+      "UC Irvine",
+      "Old Dominion",
+      "Colgate",
+      "Gardner-Webb"
+    ],
+    "Midwest": [
+      "North Carolina",
+      "Kentucky",
+      "Houston",
+      "Kansas",
+      "Auburn",
+      "Iowa St",
+      "Wofford",
+      "Utah State",
+      "Washington",
+      "Seton Hall",
+      "Ohio St",
+      "New Mexico St",
+      "Northeastern",
+      "Georgia St",
+      "Abilene Christian",
+      "Iona"
+    ],
+    "West": [
+      "Gonzaga",
+      "Michigan",
+      "Texas Tech",
+      "Florida St",
+      "Marquette",
+      "Buffalo",
+      "Nevada",
+      "Syracuse",
+      "Baylor",
+      "Florida",
+      "Arizona State / St Johns",
+      "Murray St",
+      "Vermont",
+      "N Kentucky",
+      "Montana",
+      "Prairie View A&M / Fairleigh Dickinson"
+    ]
+  }
+}

@@ -193,7 +193,7 @@
     },
     {
         "team_id": "324",
-        "team_name": "VCU",
+        "team_name": "VA_Commonwealth",
         "rating": 0.4556838514708781,
         "rank": 33
     },
@@ -229,7 +229,7 @@
     },
     {
         "team_id": "320",
-        "team_name": "Utah_State",
+        "team_name": "Utah_St",
         "rating": 0.4135669537608925,
         "rank": 39
     },
@@ -259,7 +259,7 @@
     },
     {
         "team_id": "12",
-        "team_name": "Arizona_State",
+        "team_name": "Arizona_St",
         "rating": 0.39543558766082665,
         "rank": 44
     },
@@ -313,7 +313,7 @@
     },
     {
         "team_id": "277",
-        "team_name": "St_Johns",
+        "team_name": "St_John's",
         "rating": 0.363515784972628,
         "rank": 53
     },
@@ -337,7 +337,7 @@
     },
     {
         "team_id": "280",
-        "team_name": "Saint_Mary's",
+        "team_name": "St_Mary's_CA",
         "rating": 0.3537793578831867,
         "rank": 57
     },
@@ -799,7 +799,7 @@
     },
     {
         "team_id": "1",
-        "team_name": "Abilene_Christian",
+        "team_name": "Abilene_Chr",
         "rating": 0.11617583550262678,
         "rank": 134
     },
@@ -1033,7 +1033,7 @@
     },
     {
         "team_id": "99",
-        "team_name": "Gardner-Webb",
+        "team_name": "Gardner_Webb",
         "rating": -0.0004914116727571876,
         "rank": 173
     },
@@ -1135,7 +1135,7 @@
     },
     {
         "team_id": "233",
-        "team_name": "Prairie_View_A&M",
+        "team_name": "Prairie_View",
         "rating": -0.0781603612033823,
         "rank": 190
     },
@@ -1255,7 +1255,7 @@
     },
     {
         "team_id": "86",
-        "team_name": "Fairleigh_Dickinson",
+        "team_name": "F_Dickinson",
         "rating": -0.12542186977630168,
         "rank": 210
     },
