@@ -455,7 +455,7 @@
 
 
 		$.when(
-			$.get('http://static.jameseng.land/ncaa-basketball/data/ratings-latest.json'),
+			$.get('https://static.jameseng.land/ncaa-basketball/data/ratings-latest.json'),
 			$.get('https://static.jameseng.land/ncaa-basketball/bracketology/data/in/bracket-information-2019.json')
 		).done(function(ratingsResp,bracketResp){
 
