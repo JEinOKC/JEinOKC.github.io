@@ -5,9 +5,9 @@ var parse = require('csv-parse/lib/sync');
 class MasseyBBall {
 	constructor(){
 		this.urls = {
-			'inter' : 'https://www.masseyratings.com/scores.php?s=305972&sub=11590&all=1&mode=1&format=1',
-			'intra' : 'https://www.masseyratings.com/scores.php?s=305972&sub=11590&all=1&mode=2&format=1',
-			'names' : 'https://www.masseyratings.com/scores.php?s=305972&sub=11590&all=1&mode=3&format=2'
+			'inter' : 'https://www.masseyratings.com/scores.php?s=379387&sub=11590&all=1&mode=1&format=1',
+			'intra' : 'https://www.masseyratings.com/scores.php?s=379387&sub=11590&all=1&mode=2&format=1',
+			'names' : 'https://www.masseyratings.com/scores.php?s=379387&sub=11590&all=1&mode=3&format=2'
 		};
 
 		this.teams = {};
