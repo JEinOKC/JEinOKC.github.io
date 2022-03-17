@@ -28,7 +28,11 @@ class MasseyBBall {
 
 		return new Promise((resolve, reject) => {
 
-			request(this.urls[requestType], function (error, response, body) {
+			request({
+				url: this.urls[requestType], 
+				rejectUnauthorized: false,
+				method: 'GET'
+			}, function (error, response, body) {
 			  if (!error && response.statusCode == 200) {
 			  	resolve(body);
 			  }

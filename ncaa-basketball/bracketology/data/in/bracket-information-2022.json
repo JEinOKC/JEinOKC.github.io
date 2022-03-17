@@ -1,0 +1,102 @@
+{
+  "finalFour" : [
+    ["East","West"],
+    ["Midwest","South"]
+  ],
+  "regions": [
+    {
+      "id": "East",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
+    },
+    {
+      "id": "Midwest",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
+    }
+  ],
+  "teams": {
+    "East": [
+      "Baylor",
+      "Kentucky",
+      "Purdue",
+      "UCLA",
+      "St. Mary's",
+      "Texas",
+      "Murray State",
+      "North Carolina",
+      "Marquette",
+      "San Francisco",
+      "Virginia Tech",
+      "Wyoming",
+      "Akron",
+      "Yale",
+      "St. Peter's",
+      "Norfolk State"
+    ],
+    "South": [
+      "Arizona",
+      "Villanova",
+      "Tennessee",
+      "Illinois",
+      "Houston",
+      "Colorado State",
+      "Ohio State",
+      "Seton Hall",
+      "TCU",
+      "Loyala Chicago",
+      "Michigan",
+      "UAB",
+      "Chattanooga",
+      "Longwood",
+      "Delaware",
+      "Wright State/Bryant"
+    ],
+    "Midwest": [
+      "Kansas",
+      "Auburn",
+      "Wisconsin",
+      "Providence",
+      "Iowa",
+      "LSU",
+      "USC",
+      "San Diego State",
+      "Creighton",
+      "Miami",
+      "Iowa State",
+      "Richmond",
+      "South Dakota State",
+      "Colgate",
+      "Jacksonville State",
+      "TX Southern/TX A&M CC"
+    ],
+    "West": [
+      "Gonzaga",
+      "Duke",
+      "Texas Tech",
+      "Arkansas",
+      "UConn",
+      "Alabama",
+      "Michigan State",
+      "Boise State",
+      "Memphis",
+      "Davidson",
+      "Rutgers/Notre Dame",
+      "New Mexico State",
+      "Vermont",
+      "Montana State",
+      "CSU Fullerton",
+      "Georgia State"
+    ]
+  }
+}
