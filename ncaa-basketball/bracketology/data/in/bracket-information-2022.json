@@ -31,9 +31,9 @@
       "Kentucky",
       "Purdue",
       "UCLA",
-      "St. Mary's",
+      "St_Mary's_CA",
       "Texas",
-      "Murray State",
+      "Murray St",
       "North Carolina",
       "Marquette",
       "San Francisco",
@@ -41,8 +41,8 @@
       "Wyoming",
       "Akron",
       "Yale",
-      "St. Peter's",
-      "Norfolk State"
+      "St Peter's",
+      "Norfolk St"
     ],
     "South": [
       "Arizona",
@@ -50,8 +50,8 @@
       "Tennessee",
       "Illinois",
       "Houston",
-      "Colorado State",
-      "Ohio State",
+      "Colorado St",
+      "Ohio St",
       "Seton Hall",
       "TCU",
       "Loyala Chicago",
@@ -60,7 +60,7 @@
       "Chattanooga",
       "Longwood",
       "Delaware",
-      "Wright State/Bryant"
+      "Wright St/Bryant"
     ],
     "Midwest": [
       "Kansas",
@@ -70,14 +70,14 @@
       "Iowa",
       "LSU",
       "USC",
-      "San Diego State",
+      "San Diego St",
       "Creighton",
-      "Miami",
-      "Iowa State",
+      "Miami FL",
+      "Iowa St",
       "Richmond",
-      "South Dakota State",
+      "South Dakota St",
       "Colgate",
-      "Jacksonville State",
+      "Jacksonville St",
       "TX Southern/TX A&M CC"
     ],
     "West": [
@@ -85,18 +85,18 @@
       "Duke",
       "Texas Tech",
       "Arkansas",
-      "UConn",
+      "Connecticut",
       "Alabama",
-      "Michigan State",
-      "Boise State",
+      "Michigan St",
+      "Boise St",
       "Memphis",
       "Davidson",
       "Rutgers/Notre Dame",
-      "New Mexico State",
+      "New Mexico St",
       "Vermont",
-      "Montana State",
+      "Montana St",
       "CSU Fullerton",
-      "Georgia State"
+      "Georgia St"
     ]
   }
 }
