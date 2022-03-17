@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csv-parse": "^1.2.0",
+    "csv-parse": "^4.8.5",
     "express": "^4.14.1",
     "generic-ranking-methods": "^1.0.4",
     "linear-algebra": "^3.1.3",
