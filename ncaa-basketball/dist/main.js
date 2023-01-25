@@ -456,7 +456,7 @@
 
 		$.when(
 			$.get('https://static.jameseng.land/ncaa-basketball/data/ratings-latest.json'),
-			$.get('https://static.jameseng.land/ncaa-basketball/bracketology/data/in/bracket-information-2019.json')
+			$.get('https://static.jameseng.land/ncaa-basketball/bracketology/data/in/bracket-information-2022.json')
 		).done(function(ratingsResp,bracketResp){
 
 			var bracketJSON = bracketResp[0];

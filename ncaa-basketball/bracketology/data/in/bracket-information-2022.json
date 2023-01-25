@@ -1,0 +1,102 @@
+{
+  "finalFour" : [
+    ["East","West"],
+    ["Midwest","South"]
+  ],
+  "regions": [
+    {
+      "id": "East",
+      "name": "East",
+      "fullname": "East Region"
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "fullname": "West Region"
+    },
+    {
+      "id": "Midwest",
+      "name": "Midwest",
+      "fullname": "Midwest Region"
+    },
+    {
+      "id": "South",
+      "name": "South",
+      "fullname": "South Region"
+    }
+  ],
+  "teams": {
+    "East": [
+      "Baylor",
+      "Kentucky",
+      "Purdue",
+      "UCLA",
+      "St_Mary's_CA",
+      "Texas",
+      "Murray St",
+      "North Carolina",
+      "Marquette",
+      "San Francisco",
+      "Virginia Tech",
+      "Wyoming",
+      "Akron",
+      "Yale",
+      "St Peter's",
+      "Norfolk St"
+    ],
+    "South": [
+      "Arizona",
+      "Villanova",
+      "Tennessee",
+      "Illinois",
+      "Houston",
+      "Colorado St",
+      "Ohio St",
+      "Seton Hall",
+      "TCU",
+      "Loyola-Chicago",
+      "Michigan",
+      "UAB",
+      "Chattanooga",
+      "Longwood",
+      "Delaware",
+      "Wright St/Bryant"
+    ],
+    "Midwest": [
+      "Kansas",
+      "Auburn",
+      "Wisconsin",
+      "Providence",
+      "Iowa",
+      "LSU",
+      "USC",
+      "San Diego St",
+      "Creighton",
+      "Miami FL",
+      "Iowa St",
+      "Richmond",
+      "S Dakota St",
+      "Colgate",
+      "Jacksonville St",
+      "TX Southern/TAM_C._Christi"
+    ],
+    "West": [
+      "Gonzaga",
+      "Duke",
+      "Texas Tech",
+      "Arkansas",
+      "Connecticut",
+      "Alabama",
+      "Michigan St",
+      "Boise St",
+      "Memphis",
+      "Davidson",
+      "Rutgers/Notre Dame",
+      "New Mexico St",
+      "Vermont",
+      "Montana St",
+      "CS Fullerton",
+      "Georgia St"
+    ]
+  }
+}
