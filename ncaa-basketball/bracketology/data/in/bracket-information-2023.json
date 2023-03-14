@@ -1,7 +1,7 @@
 {
     "finalFour" : [
-      ["East","West"],
-      ["Midwest","South"]
+      ["South","East"],
+      ["Midwest","West"]
     ],
     "regions": [
       {
