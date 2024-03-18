@@ -7,7 +7,7 @@ var data = JSON.parse(
 	fs.readFileSync(
 		path.join(
 			__dirname,
-			'bracketology/data/in/bracket-information-2023.json'
+			'bracketology/data/in/bracket-information-2024.json'
 		),
 		'UTF-8'
 	) 
