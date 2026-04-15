@@ -4,37 +4,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "gulp minify-js && gulp minify-css",
+    "build:js": "terser ./bracketology/index.js ./dist/main.js -o ./dist/march-to-madness.min.js --compress --mangle",
+    "build:css": "cleancss -o ./dist/march-to-madness.min.css ./dist/main.css",
+    "build": "npm run build:js && npm run build:css",
+    "prestart": "npm run build",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^4.8.5",
-    "express": "^4.14.1",
+    "express": "^4.21.2",
     "generic-ranking-methods": "^1.0.4",
     "linear-algebra": "^3.1.3",
     "lodash": "^4.17.21",
-    "mathjs": "^3.9.0",
-    "natives": "^1.1.6",
-    "request": "^2.79.0"
+    "mathjs": "^7.5.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.23.0",
-    "babel-preset-env": "^1.1.8",
-    "babel-preset-es2015": "^6.22.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-cli": "^1.2.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-jshint": "^2.0.4",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^2.0.1",
-    "gulp-uglifyjs": "^0.6.2",
-    "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1",
-    "pump": "^1.0.2",
-    "uglify-js": "^2.7.5"
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.39.0"
   },
   "description": ""
 }

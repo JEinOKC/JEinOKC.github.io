@@ -1,5 +1,5 @@
 'use strict';
-var request = require('request');
+var https = require('https');
 var parse = require('csv-parse/lib/sync');
 
 class MasseyBBall {
@@ -24,25 +24,19 @@ class MasseyBBall {
 	}
 
 	sendBasicRequest(requestType){
-		
-
 		return new Promise((resolve, reject) => {
-
-			request({
-				url: this.urls[requestType], 
-				rejectUnauthorized: false,
-				method: 'GET'
-			}, function (error, response, body) {
-			  if (!error && response.statusCode == 200) {
-			  	resolve(body);
-			  }
-			  else{
-			  	reject(error);
-			  }
-			}.bind(this));
-
+			https.get(this.urls[requestType], (response) => {
+				let data = '';
+				response.on('data', (chunk) => { data += chunk; });
+				response.on('end', () => {
+					if (response.statusCode === 200) {
+						resolve(data);
+					} else {
+						reject(new Error(`HTTP ${response.statusCode}`));
+					}
+				});
+			}).on('error', reject);
 		});
-
 	}
 
 	parseCSV(input){
