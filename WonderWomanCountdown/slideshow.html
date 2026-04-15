@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build your first React app in 10 minutes</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      a {
+        color: #a07cc0;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .inverse {
+        background: #272822;
+        color: #9b9c96;
+        /*text-shadow: 0 0 20px #333;*/
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle, inverse, inverse
+
+# Build your first [React](https://github.com/facebookincubator/create-react-app) app in 10 minutes
+---
+class: center, middle, inverse
+
+# About me
+---
+layout: false
+class: center, middle, inverse
+# Carmen Long
+## Twitter: [@carmalou](https://twitter.com/carmalou)
+## Blog: [carmalou.com](http://carmalou.com)
+
+---
+class: center, middle, inverse
+
+# Step One: [Create-React-App](https://github.com/facebookincubator/create-react-app)
+
+---
+class: left, middle, inverse
+
+# Create-React-App is a module you can install globally to create new React projects.
+
+* One dependency
+* No configuration necessary
+* Simple build process
+* All the files you need to get started
+---
+class: left, middle, inverse
+
+# Pros and Cons
+
+* Great for beginners to download and start building immediately
+* Non-configurable build set-up, so it might not be ideal for a more experienced React dev
+---
+class: left, middle, inverse
+
+# There is an eject command, if you want to use this as a boilerplate project. See the [readme](https://github.com/facebookincubator/create-react-app#converting-to-a-custom-setup) for more info!
+---
+class: center, middle, inverse
+
+# Step Two: `create-react-app my-new-app` && `npm start`
+
+This creates a new app and runs it. Check out port 3000 for your handy work!
+---
+class: center, middle, inverse
+
+# Step Three: Your first Component
+---
+class: left, middle, inverse
+
+Component:
+```javascript
+export default class Hello extends React.Component {
+  render() {
+    return(
+      <h1>Hello World!</h1>
+    );
+  }
+}
+```
+App.js:
+```javascript
+import Hello from './Components/hello.js';
+
+class App extends React.Component {
+  render() {
+    return (
+      <Hello></Hello>
+    );
+  }
+}
+```
+???
+Something about `export default` HERE
+---
+class: center, middle, inverse
+
+# Step Four: Your first Prop
+---
+class: left, middle, inverse
+
+A prop is an argument that is passed into the react function through the Component. It might look like this:
+
+Component:
+```javascript
+export default class Hello extends React.Component {
+  render() {
+    return(
+      <h1>Hello {this.props.name}!</h1>
+    );
+  }
+}
+```
+
+App.js:
+```javascript
+import Hello from './Components/hello.js';
+
+class App extends React.Component {
+  render() {
+    return (
+      <Hello name="Carmen"></Hello>
+    );
+  }
+}
+```
+---
+class: center, middle, inverse
+
+# Step Five: Your first constructor
+---
+class: left, middle, inverse
+
+Oftentimes your app is going to have data that changes and then the DOM needs to be re-rendered. First the data needs to be attached to state, which is where the constructor comes in.
+
+```javascript
+export default class Movie extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      name: 'Carmen'
+    };
+  }
+
+  changeNameThroughForm(newName) {
+    this.setState({name: newName});
+  }
+
+  render() {
+    return(
+      <h1>Hello {this.state.name}!</h1>
+    );
+  }
+}
+```
+???
+Can you add something to state later on, or does everything have to be added in the constructor?
+---
+class: center, middle, inverse
+
+# Step Six: Pull in external data
+---
+class: left, middle, inverse
+
+You probably will be getting data from an external source like an API. The process for rendering the API data is identical. Once you have the data back from the API you'll use `this.setState`
+
+```javascript
+export default class Movie extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      name: null
+    };
+
+    this.getNameFromAPI = this.getNameFromAPI.bind(this);
+  }
+
+  componentDidMount() {
+    this.getNameFromAPI().then(function(response) {
+      this.setState({name: response.data.name});
+    }.bind(this));
+  }
+
+  render() {
+    return(
+      <h1>Hello {this.state.name}!</h1>
+    );
+  }
+}
+```
+
+???
+Notice I am binding to `this` in the constructor, as well as in the then. If you don't use arrow functions in react, `this` will default to window. The way around that is the .bind(this) that I am using.
+
+---
+class: left, middle, inverse
+
+# [Lifecycle Events](https://facebook.github.io/react/docs/react-component.html)
+
+Lifecycle Events take place at different points while your app is loading.
+
+```javascript
+componentDidMount() {
+  this.getNameFromAPI().then(function(response) {
+    this.setState({name: response.data.name});
+  }.bind(this));
+}
+```
+
+`componentDidMount` is called directly after the component is rendered, so this is a good place to make an API call.
+---
+class: left, middle, inverse
+
+# References
+
+* https://facebook.github.io/react/docs/rendering-elements.html#updating-the-rendered-element
+* https://facebook.github.io/react/docs/components-and-props.html
+* https://facebook.github.io/react/docs/state-and-lifecycle.html
+* https://github.com/facebookincubator/create-react-app
+* https://facebook.github.io/react/docs/handling-events.html
+* https://medium.com/@housecor/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56#.xa67ez6s7
+* https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.lt76p1ify
+* http://redux.js.org/
+* https://facebook.github.io/react/docs/react-component.html
+
+
+</textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

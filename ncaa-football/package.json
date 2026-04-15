@@ -1,0 +1,28 @@
+{
+  "name": "ncaa-football",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "terser ./dist/main.js -o ./dist/march-to-madness.min.js --compress --mangle",
+    "build:css": "cleancss -o ./dist/march-to-madness.min.css ./dist/main.css",
+    "build": "npm run build:js && npm run build:css",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.8.5",
+    "express": "^4.21.2",
+    "generic-ranking-methods": "^1.0.4",
+    "linear-algebra": "^3.1.3",
+    "lodash": "^4.17.21",
+    "mathjs": "^7.5.1"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.39.0"
+  },
+  "description": ""
+}

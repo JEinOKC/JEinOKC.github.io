@@ -1,0 +1,764 @@
+[
+    {
+        "team_id": "100",
+        "team_name": "Texas_A&M",
+        "rating": 2,
+        "rank": 1
+    },
+    {
+        "team_id": "98",
+        "team_name": "Tennessee",
+        "rating": 2,
+        "rank": 2
+    },
+    {
+        "team_id": "91",
+        "team_name": "South_Carolina",
+        "rating": 2,
+        "rank": 3
+    },
+    {
+        "team_id": "52",
+        "team_name": "LSU",
+        "rating": 2,
+        "rank": 4
+    },
+    {
+        "team_id": "35",
+        "team_name": "Georgia",
+        "rating": 2,
+        "rank": 5
+    },
+    {
+        "team_id": "3",
+        "team_name": "Alabama",
+        "rating": 2,
+        "rank": 6
+    },
+    {
+        "team_id": "23",
+        "team_name": "Coastal_Car",
+        "rating": 1.5221817160316593,
+        "rank": 7
+    },
+    {
+        "team_id": "43",
+        "team_name": "Iowa_St",
+        "rating": 1.305257145071447,
+        "rank": 8
+    },
+    {
+        "team_id": "77",
+        "team_name": "Ohio_St",
+        "rating": 1.25,
+        "rank": 9
+    },
+    {
+        "team_id": "16",
+        "team_name": "Buffalo",
+        "rating": 1.25,
+        "rank": 10
+    },
+    {
+        "team_id": "49",
+        "team_name": "Louisiana",
+        "rating": 1.2113468293727807,
+        "rank": 11
+    },
+    {
+        "team_id": "41",
+        "team_name": "Indiana",
+        "rating": 1.125,
+        "rank": 12
+    },
+    {
+        "team_id": "103",
+        "team_name": "Toledo",
+        "rating": 1,
+        "rank": 13
+    },
+    {
+        "team_id": "58",
+        "team_name": "Miami_OH",
+        "rating": 1,
+        "rank": 14
+    },
+    {
+        "team_id": "11",
+        "team_name": "Ball_St",
+        "rating": 1,
+        "rank": 15
+    },
+    {
+        "team_id": "99",
+        "team_name": "Texas",
+        "rating": 0.8677499392611576,
+        "rank": 16
+    },
+    {
+        "team_id": "107",
+        "team_name": "UAB",
+        "rating": 0.8045744098356232,
+        "rank": 17
+    },
+    {
+        "team_id": "120",
+        "team_name": "W_Michigan",
+        "rating": 0.75,
+        "rank": 18
+    },
+    {
+        "team_id": "74",
+        "team_name": "Northwestern",
+        "rating": 0.75,
+        "rank": 19
+    },
+    {
+        "team_id": "18",
+        "team_name": "C_Michigan",
+        "rating": 0.75,
+        "rank": 20
+    },
+    {
+        "team_id": "88",
+        "team_name": "San_Jose_St",
+        "rating": 0.6391507169773891,
+        "rank": 21
+    },
+    {
+        "team_id": "42",
+        "team_name": "Iowa",
+        "rating": 0.625,
+        "rank": 22
+    },
+    {
+        "team_id": "45",
+        "team_name": "Kansas_St",
+        "rating": 0.5865285103825688,
+        "rank": 23
+    },
+    {
+        "team_id": "125",
+        "team_name": "Wisconsin",
+        "rating": 0.5,
+        "rank": 24
+    },
+    {
+        "team_id": "82",
+        "team_name": "Penn_St",
+        "rating": 0.5,
+        "rank": 25
+    },
+    {
+        "team_id": "69",
+        "team_name": "Nebraska",
+        "rating": 0.5,
+        "rank": 26
+    },
+    {
+        "team_id": "60",
+        "team_name": "Michigan_St",
+        "rating": 0.5,
+        "rank": 27
+    },
+    {
+        "team_id": "54",
+        "team_name": "Maryland",
+        "rating": 0.5,
+        "rank": 28
+    },
+    {
+        "team_id": "46",
+        "team_name": "Kent",
+        "rating": 0.5,
+        "rank": 29
+    },
+    {
+        "team_id": "8",
+        "team_name": "Arkansas_St",
+        "rating": 0.4928450697084118,
+        "rank": 30
+    },
+    {
+        "team_id": "22",
+        "team_name": "Clemson",
+        "rating": 0.4619860713079166,
+        "rank": 31
+    },
+    {
+        "team_id": "59",
+        "team_name": "Michigan",
+        "rating": 0.375,
+        "rank": 32
+    },
+    {
+        "team_id": "78",
+        "team_name": "Oklahoma",
+        "rating": 0.33652036698473914,
+        "rank": 33
+    },
+    {
+        "team_id": "96",
+        "team_name": "TCU",
+        "rating": 0.3363082708829129,
+        "rank": 34
+    },
+    {
+        "team_id": "86",
+        "team_name": "Rutgers",
+        "rating": 0.25,
+        "rank": 35
+    },
+    {
+        "team_id": "76",
+        "team_name": "Ohio",
+        "rating": 0.25,
+        "rank": 36
+    },
+    {
+        "team_id": "66",
+        "team_name": "N_Illinois",
+        "rating": 0.25,
+        "rank": 37
+    },
+    {
+        "team_id": "61",
+        "team_name": "Minnesota",
+        "rating": 0.25,
+        "rank": 38
+    },
+    {
+        "team_id": "27",
+        "team_name": "E_Michigan",
+        "rating": 0.25,
+        "rank": 39
+    },
+    {
+        "team_id": "2",
+        "team_name": "Akron",
+        "rating": 0.25,
+        "rank": 40
+    },
+    {
+        "team_id": "87",
+        "team_name": "San_Diego_St",
+        "rating": 0.24956408804416294,
+        "rank": 41
+    },
+    {
+        "team_id": "24",
+        "team_name": "Colorado",
+        "rating": 0.24956408804416272,
+        "rank": 42
+    },
+    {
+        "team_id": "72",
+        "team_name": "North_Carolina",
+        "rating": 0.24315814092631854,
+        "rank": 43
+    },
+    {
+        "team_id": "32",
+        "team_name": "Florida_St",
+        "rating": 0.211964353510288,
+        "rank": 44
+    },
+    {
+        "team_id": "17",
+        "team_name": "BYU",
+        "rating": 0.16426975393780432,
+        "rank": 45
+    },
+    {
+        "team_id": "84",
+        "team_name": "Purdue",
+        "rating": 0.125,
+        "rank": 46
+    },
+    {
+        "team_id": "113",
+        "team_name": "UT_San_Antonio",
+        "rating": 0.08570501103296486,
+        "rank": 47
+    },
+    {
+        "team_id": "126",
+        "team_name": "WKU",
+        "rating": 0.08472615705581825,
+        "rank": 48
+    },
+    {
+        "team_id": "101",
+        "team_name": "Texas_St",
+        "rating": 0.054079688805772554,
+        "rank": 49
+    },
+    {
+        "team_id": "50",
+        "team_name": "Louisiana_Tech",
+        "rating": 0.05292243521219681,
+        "rank": 50
+    },
+    {
+        "team_id": "117",
+        "team_name": "Vanderbilt",
+        "rating": 0,
+        "rank": 51
+    },
+    {
+        "team_id": "63",
+        "team_name": "Mississippi_St",
+        "rating": 0,
+        "rank": 52
+    },
+    {
+        "team_id": "62",
+        "team_name": "Mississippi",
+        "rating": 0,
+        "rank": 53
+    },
+    {
+        "team_id": "47",
+        "team_name": "Kentucky",
+        "rating": 0,
+        "rank": 54
+    },
+    {
+        "team_id": "36",
+        "team_name": "Georgia_St",
+        "rating": -0.006927328416913382,
+        "rank": 55
+    },
+    {
+        "team_id": "13",
+        "team_name": "Boise_St",
+        "rating": -0.08333376573980486,
+        "rank": 56
+    },
+    {
+        "team_id": "40",
+        "team_name": "Illinois",
+        "rating": -0.125,
+        "rank": 57
+    },
+    {
+        "team_id": "29",
+        "team_name": "FL_Atlantic",
+        "rating": -0.1639247311716419,
+        "rank": 58
+    },
+    {
+        "team_id": "115",
+        "team_name": "Utah_St",
+        "rating": -0.1645168425954617,
+        "rank": 59
+    },
+    {
+        "team_id": "79",
+        "team_name": "Oklahoma_St",
+        "rating": -0.2568014488338848,
+        "rank": 60
+    },
+    {
+        "team_id": "121",
+        "team_name": "Wake_Forest",
+        "rating": -0.28812149891244176,
+        "rank": 61
+    },
+    {
+        "team_id": "68",
+        "team_name": "NC_State",
+        "rating": -0.3506119797967277,
+        "rank": 62
+    },
+    {
+        "team_id": "124",
+        "team_name": "West_Virginia",
+        "rating": -0.38222798027609933,
+        "rank": 63
+    },
+    {
+        "team_id": "20",
+        "team_name": "Charlotte",
+        "rating": -0.41391034326207593,
+        "rank": 64
+    },
+    {
+        "team_id": "53",
+        "team_name": "Marshall",
+        "rating": -0.4453971809050891,
+        "rank": 65
+    },
+    {
+        "team_id": "15",
+        "team_name": "Bowling_Green",
+        "rating": -0.5,
+        "rank": 66
+    },
+    {
+        "team_id": "21",
+        "team_name": "Cincinnati",
+        "rating": -0.5333848369772648,
+        "rank": 67
+    },
+    {
+        "team_id": "106",
+        "team_name": "Tulsa",
+        "rating": -0.5337844816725781,
+        "rank": 68
+    },
+    {
+        "team_id": "75",
+        "team_name": "Notre_Dame",
+        "rating": -0.5377377455324769,
+        "rank": 69
+    },
+    {
+        "team_id": "28",
+        "team_name": "East_Carolina",
+        "rating": -0.5962453116760617,
+        "rank": 70
+    },
+    {
+        "team_id": "89",
+        "team_name": "SMU",
+        "rating": -0.5967334832634413,
+        "rank": 71
+    },
+    {
+        "team_id": "83",
+        "team_name": "Pittsburgh",
+        "rating": -0.6005496718060567,
+        "rank": 72
+    },
+    {
+        "team_id": "104",
+        "team_name": "Troy",
+        "rating": -0.602681851880817,
+        "rank": 73
+    },
+    {
+        "team_id": "67",
+        "team_name": "Navy",
+        "rating": -0.62185813875953,
+        "rank": 74
+    },
+    {
+        "team_id": "118",
+        "team_name": "Virginia",
+        "rating": -0.631891664935293,
+        "rank": 75
+    },
+    {
+        "team_id": "9",
+        "team_name": "Army",
+        "rating": -0.6511344704347526,
+        "rank": 76
+    },
+    {
+        "team_id": "94",
+        "team_name": "Stanford",
+        "rating": -0.6566859119558374,
+        "rank": 77
+    },
+    {
+        "team_id": "108",
+        "team_name": "UCF",
+        "rating": -0.6594777091841177,
+        "rank": 78
+    },
+    {
+        "team_id": "1",
+        "team_name": "Air_Force",
+        "rating": -0.6803417118115161,
+        "rank": 79
+    },
+    {
+        "team_id": "48",
+        "team_name": "Liberty",
+        "rating": -0.6947493756437149,
+        "rank": 80
+    },
+    {
+        "team_id": "34",
+        "team_name": "Ga_Southern",
+        "rating": -0.7252442873984866,
+        "rank": 81
+    },
+    {
+        "team_id": "65",
+        "team_name": "MTSU",
+        "rating": -0.756656192768712,
+        "rank": 82
+    },
+    {
+        "team_id": "57",
+        "team_name": "Miami_FL",
+        "rating": -0.7569656079035214,
+        "rank": 83
+    },
+    {
+        "team_id": "38",
+        "team_name": "Hawaii",
+        "rating": -0.8039403017814185,
+        "rank": 84
+    },
+    {
+        "team_id": "39",
+        "team_name": "Houston",
+        "rating": -0.8486078004243798,
+        "rank": 85
+    },
+    {
+        "team_id": "33",
+        "team_name": "Fresno_St",
+        "rating": -0.8583096490977232,
+        "rank": 86
+    },
+    {
+        "team_id": "12",
+        "team_name": "Baylor",
+        "rating": -0.9134781455500155,
+        "rank": 87
+    },
+    {
+        "team_id": "44",
+        "team_name": "Kansas",
+        "rating": -0.9136599678729653,
+        "rank": 88
+    },
+    {
+        "team_id": "123",
+        "team_name": "Washington_St",
+        "rating": -0.9379359119558374,
+        "rank": 89
+    },
+    {
+        "team_id": "122",
+        "team_name": "Washington",
+        "rating": -0.9379359119558374,
+        "rank": 90
+    },
+    {
+        "team_id": "114",
+        "team_name": "Utah",
+        "rating": -0.9379359119558374,
+        "rank": 91
+    },
+    {
+        "team_id": "109",
+        "team_name": "UCLA",
+        "rating": -0.9379359119558374,
+        "rank": 92
+    },
+    {
+        "team_id": "80",
+        "team_name": "Oregon",
+        "rating": -0.9379359119558374,
+        "rank": 93
+    },
+    {
+        "team_id": "4",
+        "team_name": "Appalachian_St",
+        "rating": -0.9763545061915471,
+        "rank": 94
+    },
+    {
+        "team_id": "127",
+        "team_name": "Wyoming",
+        "rating": -0.9832005145656719,
+        "rank": 95
+    },
+    {
+        "team_id": "56",
+        "team_name": "Memphis",
+        "rating": -1.0027787473012257,
+        "rank": 96
+    },
+    {
+        "team_id": "90",
+        "team_name": "South_Alabama",
+        "rating": -1.0383562397474468,
+        "rank": 97
+    },
+    {
+        "team_id": "70",
+        "team_name": "Nevada",
+        "rating": -1.0525439769876026,
+        "rank": 98
+    },
+    {
+        "team_id": "119",
+        "team_name": "Virginia_Tech",
+        "rating": -1.1006638080668918,
+        "rank": 99
+    },
+    {
+        "team_id": "110",
+        "team_name": "ULM",
+        "rating": -1.162337373970713,
+        "rank": 100
+    },
+    {
+        "team_id": "112",
+        "team_name": "USC",
+        "rating": -1.1879359119558373,
+        "rank": 101
+    },
+    {
+        "team_id": "19",
+        "team_name": "California",
+        "rating": -1.1879359119558373,
+        "rank": 102
+    },
+    {
+        "team_id": "6",
+        "team_name": "Arizona_St",
+        "rating": -1.1879359119558373,
+        "rank": 103
+    },
+    {
+        "team_id": "51",
+        "team_name": "Louisville",
+        "rating": -1.2569964573474774,
+        "rank": 104
+    },
+    {
+        "team_id": "105",
+        "team_name": "Tulane",
+        "rating": -1.3149582328247629,
+        "rank": 105
+    },
+    {
+        "team_id": "102",
+        "team_name": "Texas_Tech",
+        "rating": -1.4759781455500156,
+        "rank": 106
+    },
+    {
+        "team_id": "55",
+        "team_name": "Massachusetts",
+        "rating": -1.4760788937797331,
+        "rank": 107
+    },
+    {
+        "team_id": "93",
+        "team_name": "Southern_Miss",
+        "rating": -1.569797276484471,
+        "rank": 108
+    },
+    {
+        "team_id": "71",
+        "team_name": "New_Mexico",
+        "rating": -1.5933860399802864,
+        "rank": 109
+    },
+    {
+        "team_id": "37",
+        "team_name": "Georgia_Tech",
+        "rating": -1.60020637779484,
+        "rank": 110
+    },
+    {
+        "team_id": "5",
+        "team_name": "Arizona",
+        "rating": -1.6254359119558373,
+        "rank": 111
+    },
+    {
+        "team_id": "31",
+        "team_name": "Florida_Intl",
+        "rating": -1.6639010356320627,
+        "rank": 112
+    },
+    {
+        "team_id": "81",
+        "team_name": "Oregon_St",
+        "rating": -1.6879359119558373,
+        "rank": 113
+    },
+    {
+        "team_id": "73",
+        "team_name": "North_Texas",
+        "rating": -1.7571543868409363,
+        "rank": 114
+    },
+    {
+        "team_id": "26",
+        "team_name": "Duke",
+        "rating": -1.788125472662914,
+        "rank": 115
+    },
+    {
+        "team_id": "14",
+        "team_name": "Boston_College",
+        "rating": -1.8194343719618982,
+        "rank": 116
+    },
+    {
+        "team_id": "97",
+        "team_name": "Temple",
+        "rating": -1.8457669021243859,
+        "rank": 117
+    },
+    {
+        "team_id": "116",
+        "team_name": "UTEP",
+        "rating": -1.9138791197612344,
+        "rank": 118
+    },
+    {
+        "team_id": "25",
+        "team_name": "Colorado_St",
+        "rating": -1.9735074603397593,
+        "rank": 119
+    },
+    {
+        "team_id": "64",
+        "team_name": "Missouri",
+        "rating": -2,
+        "rank": 120
+    },
+    {
+        "team_id": "30",
+        "team_name": "Florida",
+        "rating": -2,
+        "rank": 121
+    },
+    {
+        "team_id": "10",
+        "team_name": "Auburn",
+        "rating": -2,
+        "rank": 122
+    },
+    {
+        "team_id": "7",
+        "team_name": "Arkansas",
+        "rating": -2,
+        "rank": 123
+    },
+    {
+        "team_id": "85",
+        "team_name": "Rice",
+        "rating": -2.288636125432717,
+        "rank": 124
+    },
+    {
+        "team_id": "95",
+        "team_name": "Syracuse",
+        "rating": -2.3193307944749377,
+        "rank": 125
+    },
+    {
+        "team_id": "92",
+        "team_name": "South_Florida",
+        "rating": -2.7533166918615612,
+        "rank": 126
+    },
+    {
+        "team_id": "111",
+        "team_name": "UNLV",
+        "rating": -2.780713272901811,
+        "rank": 127
+    }
+]

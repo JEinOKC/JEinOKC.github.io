@@ -1,0 +1,7622 @@
+[
+    {
+        "teamA": {
+            "id": 90,
+            "score": 32,
+            "site": "road",
+            "name": "South_Alabama"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 21,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 42,
+            "site": "home",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 0,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 37,
+            "site": "home",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 24,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 31,
+            "site": "road",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 24,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 55,
+            "site": "road",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 3,
+            "site": "home",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 31,
+            "site": "home",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 107,
+            "score": 14,
+            "site": "road",
+            "name": "UAB"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 35,
+            "site": "home",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 20,
+            "score": 20,
+            "site": "road",
+            "name": "Charlotte"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 37,
+            "score": 16,
+            "site": "road",
+            "name": "Georgia_Tech"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 13,
+            "site": "home",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 51,
+            "score": 35,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 21,
+            "site": "road",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 31,
+            "site": "home",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 6,
+            "site": "road",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 27,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 13,
+            "site": "road",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 37,
+            "site": "road",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 121,
+            "score": 13,
+            "site": "home",
+            "name": "Wake_Forest"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 31,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 43,
+            "score": 14,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 38,
+            "site": "road",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 23,
+            "site": "home",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 8,
+            "score": 35,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 31,
+            "site": "home",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 27,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 24,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 59,
+            "site": "home",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 116,
+            "score": 3,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 51,
+            "site": "road",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 48,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 37,
+            "site": "home",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 7,
+            "site": "road",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 26,
+            "site": "road",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 6,
+            "site": "home",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 34,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 36,
+            "score": 31,
+            "site": "home",
+            "name": "Georgia_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 49,
+            "site": "road",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 21,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 47,
+            "site": "road",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 34,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 17,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 4,
+            "score": 7,
+            "site": "road",
+            "name": "Appalachian_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 45,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 121,
+            "score": 42,
+            "site": "road",
+            "name": "Wake_Forest"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 83,
+            "score": 21,
+            "site": "home",
+            "name": "Pittsburgh"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 10,
+            "site": "road",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 101,
+            "score": 38,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 17,
+            "site": "home",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 104,
+            "score": 47,
+            "site": "road",
+            "name": "Troy"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 14,
+            "site": "home",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 65,
+            "site": "road",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 73,
+            "score": 35,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 50,
+            "score": 31,
+            "site": "road",
+            "name": "Louisiana_Tech"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 30,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 67,
+            "score": 27,
+            "site": "road",
+            "name": "Navy"
+        },
+        "teamB": {
+            "id": 105,
+            "score": 24,
+            "site": "home",
+            "name": "Tulane"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 30,
+            "site": "road",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 24,
+            "site": "home",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 52,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 0,
+            "site": "road",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 16,
+            "site": "home",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 106,
+            "score": 7,
+            "site": "road",
+            "name": "Tulsa"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 107,
+            "score": 42,
+            "site": "road",
+            "name": "UAB"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 10,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 37,
+            "site": "home",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 35,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 51,
+            "site": "road",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 28,
+            "site": "home",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 52,
+            "site": "home",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 10,
+            "site": "road",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 83,
+            "score": 23,
+            "site": "home",
+            "name": "Pittsburgh"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 20,
+            "site": "road",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 98,
+            "score": 31,
+            "site": "road",
+            "name": "Tennessee"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 27,
+            "site": "home",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 95,
+            "score": 37,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 20,
+            "site": "road",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 37,
+            "site": "road",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 10,
+            "site": "home",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 29,
+            "site": "home",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 13,
+            "site": "road",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 12,
+            "score": 47,
+            "site": "home",
+            "name": "Baylor"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 14,
+            "site": "road",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 63,
+            "score": 44,
+            "site": "road",
+            "name": "Mississippi_St"
+        },
+        "teamB": {
+            "id": 52,
+            "score": 34,
+            "site": "home",
+            "name": "LSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 20,
+            "site": "home",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 34,
+            "score": 18,
+            "site": "road",
+            "name": "Ga_Southern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 38,
+            "site": "road",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 64,
+            "score": 19,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 45,
+            "score": 38,
+            "site": "road",
+            "name": "Kansas_St"
+        },
+        "teamB": {
+            "id": 78,
+            "score": 35,
+            "site": "home",
+            "name": "Oklahoma"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 27,
+            "site": "home",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 124,
+            "score": 13,
+            "site": "road",
+            "name": "West_Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 51,
+            "site": "road",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 62,
+            "score": 35,
+            "site": "home",
+            "name": "Mississippi"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 37,
+            "site": "road",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 96,
+            "score": 34,
+            "site": "home",
+            "name": "TCU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 17,
+            "site": "home",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 12,
+            "site": "road",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 63,
+            "site": "road",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 56,
+            "site": "home",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 48,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 7,
+            "site": "road",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 36,
+            "site": "home",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 31,
+            "score": 34,
+            "site": "road",
+            "name": "Florida_Intl"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 66,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 24,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 24,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 9,
+            "score": 10,
+            "site": "road",
+            "name": "Army"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 119,
+            "score": 45,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "teamB": {
+            "id": 68,
+            "score": 24,
+            "site": "road",
+            "name": "NC_State"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 116,
+            "score": 31,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 6,
+            "site": "home",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 24,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 21,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 118,
+            "score": 38,
+            "site": "home",
+            "name": "Virginia"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 20,
+            "site": "road",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 45,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 50,
+            "score": 14,
+            "site": "road",
+            "name": "Louisiana_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 30,
+            "site": "home",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 56,
+            "score": 27,
+            "site": "road",
+            "name": "Memphis"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 26,
+            "site": "road",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 14,
+            "score": 22,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 28,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 7,
+            "site": "road",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 41,
+            "site": "home",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 118,
+            "score": 23,
+            "site": "road",
+            "name": "Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 52,
+            "site": "home",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 23,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 119,
+            "score": 38,
+            "site": "road",
+            "name": "Virginia_Tech"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 31,
+            "site": "home",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 38,
+            "site": "home",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 24,
+            "site": "road",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 29,
+            "score": 21,
+            "site": "home",
+            "name": "FL_Atlantic"
+        },
+        "teamB": {
+            "id": 20,
+            "score": 17,
+            "site": "road",
+            "name": "Charlotte"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 27,
+            "site": "home",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 10,
+            "score": 6,
+            "site": "road",
+            "name": "Auburn"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 36,
+            "score": 49,
+            "site": "home",
+            "name": "Georgia_St"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 29,
+            "site": "road",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 62,
+            "score": 42,
+            "site": "road",
+            "name": "Mississippi"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 41,
+            "site": "home",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 30,
+            "site": "road",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 83,
+            "score": 29,
+            "site": "home",
+            "name": "Pittsburgh"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 98,
+            "score": 35,
+            "site": "home",
+            "name": "Tennessee"
+        },
+        "teamB": {
+            "id": 64,
+            "score": 12,
+            "site": "road",
+            "name": "Missouri"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 34,
+            "site": "road",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 108,
+            "score": 26,
+            "site": "home",
+            "name": "UCF"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 124,
+            "score": 27,
+            "site": "home",
+            "name": "West_Virginia"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 21,
+            "site": "road",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 52,
+            "site": "home",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 100,
+            "score": 24,
+            "site": "road",
+            "name": "Texas_A&M"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 37,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 78,
+            "score": 30,
+            "site": "road",
+            "name": "Oklahoma"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 47,
+            "site": "road",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 7,
+            "site": "home",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 45,
+            "score": 31,
+            "site": "home",
+            "name": "Kansas_St"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 21,
+            "site": "road",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 35,
+            "site": "road",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 30,
+            "site": "home",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 126,
+            "score": 20,
+            "site": "road",
+            "name": "WKU"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 17,
+            "site": "home",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 7,
+            "score": 21,
+            "site": "road",
+            "name": "Arkansas"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 14,
+            "site": "home",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 93,
+            "score": 41,
+            "site": "road",
+            "name": "Southern_Miss"
+        },
+        "teamB": {
+            "id": 73,
+            "score": 31,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 33,
+            "site": "road",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 99,
+            "score": 31,
+            "site": "home",
+            "name": "Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 107,
+            "score": 21,
+            "site": "home",
+            "name": "UAB"
+        },
+        "teamB": {
+            "id": 113,
+            "score": 13,
+            "site": "road",
+            "name": "UT_San_Antonio"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 52,
+            "score": 41,
+            "site": "road",
+            "name": "LSU"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 7,
+            "site": "home",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 1,
+            "score": 40,
+            "site": "home",
+            "name": "Air_Force"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 7,
+            "site": "road",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 39,
+            "score": 49,
+            "site": "home",
+            "name": "Houston"
+        },
+        "teamB": {
+            "id": 105,
+            "score": 31,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 37,
+            "score": 46,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 27,
+            "site": "road",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 104,
+            "score": 37,
+            "site": "home",
+            "name": "Troy"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 17,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 31,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 83,
+            "score": 30,
+            "site": "road",
+            "name": "Pittsburgh"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 42,
+            "site": "home",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 57,
+            "score": 17,
+            "site": "road",
+            "name": "Miami_FL"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 65,
+            "score": 31,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "teamB": {
+            "id": 31,
+            "score": 28,
+            "site": "home",
+            "name": "Florida_Intl"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 44,
+            "site": "home",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 21,
+            "site": "road",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 47,
+            "score": 24,
+            "site": "home",
+            "name": "Kentucky"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 2,
+            "site": "road",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 56,
+            "site": "home",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 45,
+            "site": "road",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 42,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 26,
+            "site": "road",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 28,
+            "score": 44,
+            "site": "road",
+            "name": "East_Carolina"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 24,
+            "site": "home",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 26,
+            "score": 38,
+            "site": "road",
+            "name": "Duke"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 24,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 38,
+            "site": "road",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 118,
+            "score": 21,
+            "site": "home",
+            "name": "Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 30,
+            "site": "home",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 28,
+            "site": "road",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 31,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 15,
+            "site": "road",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 64,
+            "score": 45,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "teamB": {
+            "id": 52,
+            "score": 41,
+            "site": "road",
+            "name": "LSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 50,
+            "score": 21,
+            "site": "home",
+            "name": "Louisiana_Tech"
+        },
+        "teamB": {
+            "id": 116,
+            "score": 17,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 20,
+            "score": 49,
+            "site": "road",
+            "name": "Charlotte"
+        },
+        "teamB": {
+            "id": 73,
+            "score": 21,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 53,
+            "site": "neutral",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 99,
+            "score": 45,
+            "site": "neutral",
+            "name": "Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 63,
+            "site": "road",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 62,
+            "score": 48,
+            "site": "home",
+            "name": "Mississippi"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 45,
+            "score": 21,
+            "site": "road",
+            "name": "Kansas_St"
+        },
+        "teamB": {
+            "id": 96,
+            "score": 14,
+            "site": "home",
+            "name": "TCU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 41,
+            "site": "home",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 30,
+            "score": 38,
+            "site": "road",
+            "name": "Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 91,
+            "score": 41,
+            "site": "road",
+            "name": "South_Carolina"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 7,
+            "site": "home",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 38,
+            "site": "road",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 14,
+            "site": "home",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 40,
+            "site": "home",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 7,
+            "site": "road",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 27,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 113,
+            "score": 20,
+            "site": "road",
+            "name": "UT_San_Antonio"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 67,
+            "score": 31,
+            "site": "home",
+            "name": "Navy"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 29,
+            "site": "road",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 30,
+            "site": "road",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 49,
+            "score": 27,
+            "site": "home",
+            "name": "Louisiana"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 8,
+            "score": 59,
+            "site": "home",
+            "name": "Arkansas_St"
+        },
+        "teamB": {
+            "id": 36,
+            "score": 52,
+            "site": "road",
+            "name": "Georgia_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 43,
+            "site": "road",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 39,
+            "score": 26,
+            "site": "home",
+            "name": "Houston"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 37,
+            "site": "road",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 105,
+            "score": 34,
+            "site": "home",
+            "name": "Tulane"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 50,
+            "site": "home",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 108,
+            "score": 49,
+            "site": "road",
+            "name": "UCF"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 67,
+            "score": 27,
+            "site": "road",
+            "name": "Navy"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 23,
+            "site": "home",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 32,
+            "score": 31,
+            "site": "home",
+            "name": "Florida_St"
+        },
+        "teamB": {
+            "id": 72,
+            "score": 28,
+            "site": "road",
+            "name": "North_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 73,
+            "site": "road",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 7,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 31,
+            "site": "home",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 83,
+            "score": 19,
+            "site": "road",
+            "name": "Pittsburgh"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 31,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 20,
+            "site": "road",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 12,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 7,
+            "site": "road",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 91,
+            "score": 30,
+            "site": "home",
+            "name": "South_Carolina"
+        },
+        "teamB": {
+            "id": 10,
+            "score": 22,
+            "site": "road",
+            "name": "Auburn"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 38,
+            "site": "road",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 21,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 97,
+            "score": 39,
+            "site": "home",
+            "name": "Temple"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 37,
+            "site": "road",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 47,
+            "score": 34,
+            "site": "road",
+            "name": "Kentucky"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 7,
+            "site": "home",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 119,
+            "score": 40,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "teamB": {
+            "id": 14,
+            "score": 14,
+            "site": "road",
+            "name": "Boston_College"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 121,
+            "score": 40,
+            "site": "home",
+            "name": "Wake_Forest"
+        },
+        "teamB": {
+            "id": 118,
+            "score": 23,
+            "site": "road",
+            "name": "Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 124,
+            "score": 38,
+            "site": "home",
+            "name": "West_Virginia"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 17,
+            "site": "road",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 41,
+            "site": "home",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 35,
+            "score": 24,
+            "site": "road",
+            "name": "Georgia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 7,
+            "score": 33,
+            "site": "home",
+            "name": "Arkansas"
+        },
+        "teamB": {
+            "id": 62,
+            "score": 21,
+            "site": "road",
+            "name": "Mississippi"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 35,
+            "site": "road",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 50,
+            "score": 17,
+            "site": "home",
+            "name": "Louisiana_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 73,
+            "score": 52,
+            "site": "road",
+            "name": "North_Texas"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 35,
+            "site": "home",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 28,
+            "site": "road",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 14,
+            "site": "home",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 90,
+            "score": 30,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 20,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 107,
+            "score": 37,
+            "site": "home",
+            "name": "UAB"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 14,
+            "site": "road",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 28,
+            "site": "road",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 113,
+            "score": 16,
+            "site": "home",
+            "name": "UT_San_Antonio"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 41,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 55,
+            "score": 0,
+            "site": "road",
+            "name": "Massachusetts"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 45,
+            "site": "home",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 17,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 42,
+            "site": "road",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 13,
+            "site": "home",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 24,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 107,
+            "score": 20,
+            "site": "home",
+            "name": "UAB"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 125,
+            "score": 45,
+            "site": "home",
+            "name": "Wisconsin"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 7,
+            "site": "road",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 90,
+            "score": 38,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 14,
+            "site": "road",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 48,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 27,
+            "site": "road",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 20,
+            "score": 38,
+            "site": "home",
+            "name": "Charlotte"
+        },
+        "teamB": {
+            "id": 116,
+            "score": 28,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 47,
+            "site": "home",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 21,
+            "site": "road",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 28,
+            "site": "home",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 34,
+            "score": 14,
+            "site": "road",
+            "name": "Ga_Southern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 51,
+            "score": 48,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 16,
+            "site": "road",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 20,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 29,
+            "score": 9,
+            "site": "road",
+            "name": "FL_Atlantic"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 19,
+            "site": "home",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 118,
+            "score": 14,
+            "site": "road",
+            "name": "Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 39,
+            "score": 37,
+            "site": "road",
+            "name": "Houston"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 21,
+            "site": "home",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 48,
+            "site": "home",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 68,
+            "score": 21,
+            "site": "road",
+            "name": "NC_State"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 45,
+            "site": "road",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 83,
+            "score": 3,
+            "site": "home",
+            "name": "Pittsburgh"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 48,
+            "site": "road",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 17,
+            "site": "home",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 51,
+            "site": "home",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 105,
+            "score": 34,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 121,
+            "score": 23,
+            "site": "home",
+            "name": "Wake_Forest"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 16,
+            "site": "road",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 45,
+            "score": 55,
+            "site": "home",
+            "name": "Kansas_St"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 14,
+            "site": "road",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 52,
+            "score": 52,
+            "site": "home",
+            "name": "LSU"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 24,
+            "site": "road",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 41,
+            "site": "home",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 29,
+            "site": "road",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 24,
+            "site": "home",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 43,
+            "score": 21,
+            "site": "road",
+            "name": "Iowa_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 35,
+            "site": "road",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 62,
+            "score": 28,
+            "site": "home",
+            "name": "Mississippi"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 65,
+            "score": 40,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "teamB": {
+            "id": 85,
+            "score": 34,
+            "site": "home",
+            "name": "Rice"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 42,
+            "site": "road",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 89,
+            "score": 13,
+            "site": "home",
+            "name": "SMU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 33,
+            "site": "road",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 96,
+            "score": 14,
+            "site": "home",
+            "name": "TCU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 27,
+            "site": "home",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 16,
+            "site": "road",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 102,
+            "score": 34,
+            "site": "home",
+            "name": "Texas_Tech"
+        },
+        "teamB": {
+            "id": 124,
+            "score": 27,
+            "site": "road",
+            "name": "West_Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 36,
+            "score": 36,
+            "site": "road",
+            "name": "Georgia_St"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 34,
+            "site": "home",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 27,
+            "site": "home",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 50,
+            "score": 26,
+            "site": "road",
+            "name": "Louisiana_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 56,
+            "site": "home",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 35,
+            "site": "road",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 52,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 14,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 36,
+            "site": "home",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 82,
+            "score": 35,
+            "site": "road",
+            "name": "Penn_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 86,
+            "score": 38,
+            "site": "road",
+            "name": "Rutgers"
+        },
+        "teamB": {
+            "id": 60,
+            "score": 27,
+            "site": "home",
+            "name": "Michigan_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 52,
+            "site": "home",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 69,
+            "score": 17,
+            "site": "road",
+            "name": "Nebraska"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 84,
+            "score": 24,
+            "site": "home",
+            "name": "Purdue"
+        },
+        "teamB": {
+            "id": 42,
+            "score": 20,
+            "site": "road",
+            "name": "Iowa"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 59,
+            "score": 49,
+            "site": "road",
+            "name": "Michigan"
+        },
+        "teamB": {
+            "id": 61,
+            "score": 24,
+            "site": "home",
+            "name": "Minnesota"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 43,
+            "site": "home",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 54,
+            "score": 3,
+            "site": "road",
+            "name": "Maryland"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 13,
+            "score": 42,
+            "site": "home",
+            "name": "Boise_St"
+        },
+        "teamB": {
+            "id": 115,
+            "score": 13,
+            "site": "road",
+            "name": "Utah_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 38,
+            "score": 34,
+            "site": "road",
+            "name": "Hawaii"
+        },
+        "teamB": {
+            "id": 33,
+            "score": 19,
+            "site": "home",
+            "name": "Fresno_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 37,
+            "site": "home",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 127,
+            "score": 34,
+            "site": "road",
+            "name": "Wyoming"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 87,
+            "score": 34,
+            "site": "home",
+            "name": "San_Diego_St"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 6,
+            "site": "road",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 17,
+            "site": "home",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 1,
+            "score": 6,
+            "site": "road",
+            "name": "Air_Force"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 64,
+            "score": 20,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 10,
+            "site": "road",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 24,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 17,
+            "site": "road",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 33,
+            "score": 38,
+            "site": "home",
+            "name": "Fresno_St"
+        },
+        "teamB": {
+            "id": 25,
+            "score": 17,
+            "site": "road",
+            "name": "Colorado_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 34,
+            "site": "home",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 30,
+            "site": "road",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 54,
+            "score": 45,
+            "site": "home",
+            "name": "Maryland"
+        },
+        "teamB": {
+            "id": 61,
+            "score": 44,
+            "site": "road",
+            "name": "Minnesota"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 127,
+            "score": 31,
+            "site": "home",
+            "name": "Wyoming"
+        },
+        "teamB": {
+            "id": 38,
+            "score": 7,
+            "site": "road",
+            "name": "Hawaii"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 51,
+            "site": "road",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 36,
+            "score": 0,
+            "site": "home",
+            "name": "Georgia_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 49,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 56,
+            "score": 10,
+            "site": "road",
+            "name": "Memphis"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 34,
+            "site": "home",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 14,
+            "score": 28,
+            "site": "road",
+            "name": "Boston_College"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 26,
+            "score": 53,
+            "site": "home",
+            "name": "Duke"
+        },
+        "teamB": {
+            "id": 20,
+            "score": 19,
+            "site": "road",
+            "name": "Charlotte"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 29,
+            "score": 24,
+            "site": "home",
+            "name": "FL_Atlantic"
+        },
+        "teamB": {
+            "id": 113,
+            "score": 3,
+            "site": "road",
+            "name": "UT_San_Antonio"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 31,
+            "site": "road",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 13,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 119,
+            "score": 42,
+            "site": "road",
+            "name": "Virginia_Tech"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 35,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 121,
+            "score": 38,
+            "site": "road",
+            "name": "Wake_Forest"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 14,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 118,
+            "score": 44,
+            "site": "home",
+            "name": "Virginia"
+        },
+        "teamB": {
+            "id": 72,
+            "score": 41,
+            "site": "road",
+            "name": "North_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 124,
+            "score": 37,
+            "site": "home",
+            "name": "West_Virginia"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 10,
+            "site": "road",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 41,
+            "site": "home",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 0,
+            "site": "road",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 104,
+            "score": 38,
+            "site": "road",
+            "name": "Troy"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 10,
+            "site": "home",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 48,
+            "site": "home",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 52,
+            "score": 11,
+            "site": "road",
+            "name": "LSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 33,
+            "site": "road",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 23,
+            "site": "home",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 44,
+            "site": "road",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 39,
+            "score": 21,
+            "site": "home",
+            "name": "Houston"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 52,
+            "site": "road",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 22,
+            "site": "home",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 50,
+            "score": 37,
+            "site": "home",
+            "name": "Louisiana_Tech"
+        },
+        "teamB": {
+            "id": 107,
+            "score": 34,
+            "site": "road",
+            "name": "UAB"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 31,
+            "site": "road",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 13,
+            "site": "home",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 41,
+            "site": "road",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 79,
+            "score": 34,
+            "site": "home",
+            "name": "Oklahoma_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 51,
+            "site": "home",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 37,
+            "site": "road",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 85,
+            "score": 30,
+            "site": "road",
+            "name": "Rice"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 6,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 42,
+            "site": "home",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 31,
+            "site": "road",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 44,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 34,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 62,
+            "site": "road",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 28,
+            "site": "home",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 38,
+            "site": "home",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 3,
+            "site": "road",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 62,
+            "score": 54,
+            "site": "road",
+            "name": "Mississippi"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 21,
+            "site": "home",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 41,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 10,
+            "site": "road",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 60,
+            "score": 27,
+            "site": "road",
+            "name": "Michigan_St"
+        },
+        "teamB": {
+            "id": 59,
+            "score": 24,
+            "site": "home",
+            "name": "Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 38,
+            "site": "road",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 82,
+            "score": 25,
+            "site": "home",
+            "name": "Penn_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 37,
+            "site": "road",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 21,
+            "site": "home",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 84,
+            "score": 31,
+            "site": "road",
+            "name": "Purdue"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 24,
+            "site": "home",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 21,
+            "site": "road",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 42,
+            "score": 20,
+            "site": "home",
+            "name": "Iowa"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 13,
+            "score": 49,
+            "site": "road",
+            "name": "Boise_St"
+        },
+        "teamB": {
+            "id": 1,
+            "score": 30,
+            "site": "home",
+            "name": "Air_Force"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 38,
+            "site": "home",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 71,
+            "score": 21,
+            "site": "road",
+            "name": "New_Mexico"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 87,
+            "score": 38,
+            "site": "road",
+            "name": "San_Diego_St"
+        },
+        "teamB": {
+            "id": 115,
+            "score": 7,
+            "site": "home",
+            "name": "Utah_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 37,
+            "site": "road",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 19,
+            "site": "home",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 14,
+            "site": "road",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 3,
+            "site": "home",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 41,
+            "site": "home",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 64,
+            "score": 17,
+            "site": "road",
+            "name": "Missouri"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 120,
+            "score": 58,
+            "site": "road",
+            "name": "W_Michigan"
+        },
+        "teamB": {
+            "id": 2,
+            "score": 13,
+            "site": "home",
+            "name": "Akron"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 18,
+            "score": 30,
+            "site": "home",
+            "name": "C_Michigan"
+        },
+        "teamB": {
+            "id": 76,
+            "score": 27,
+            "site": "road",
+            "name": "Ohio"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 46,
+            "score": 27,
+            "site": "home",
+            "name": "Kent"
+        },
+        "teamB": {
+            "id": 27,
+            "score": 23,
+            "site": "road",
+            "name": "E_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 58,
+            "score": 38,
+            "site": "home",
+            "name": "Miami_OH"
+        },
+        "teamB": {
+            "id": 11,
+            "score": 31,
+            "site": "road",
+            "name": "Ball_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 103,
+            "score": 38,
+            "site": "home",
+            "name": "Toledo"
+        },
+        "teamB": {
+            "id": 15,
+            "score": 3,
+            "site": "road",
+            "name": "Bowling_Green"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 16,
+            "score": 49,
+            "site": "road",
+            "name": "Buffalo"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 30,
+            "site": "home",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 34,
+            "site": "home",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 115,
+            "score": 9,
+            "site": "road",
+            "name": "Utah_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 25,
+            "score": 34,
+            "site": "home",
+            "name": "Colorado_St"
+        },
+        "teamB": {
+            "id": 127,
+            "score": 24,
+            "site": "road",
+            "name": "Wyoming"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 44,
+            "site": "road",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 68,
+            "score": 41,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 51,
+            "site": "road",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 13,
+            "score": 17,
+            "site": "home",
+            "name": "Boise_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 28,
+            "site": "road",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 87,
+            "score": 17,
+            "site": "home",
+            "name": "San_Diego_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 89,
+            "score": 47,
+            "site": "road",
+            "name": "SMU"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 23,
+            "site": "home",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 27,
+            "site": "home",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 20,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 38,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 39,
+            "score": 10,
+            "site": "road",
+            "name": "Houston"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 23,
+            "site": "home",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 6,
+            "site": "road",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 56,
+            "site": "road",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 24,
+            "site": "home",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 38,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 21,
+            "site": "home",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 29,
+            "score": 10,
+            "site": "home",
+            "name": "FL_Atlantic"
+        },
+        "teamB": {
+            "id": 126,
+            "score": 6,
+            "site": "road",
+            "name": "WKU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 83,
+            "score": 41,
+            "site": "road",
+            "name": "Pittsburgh"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 17,
+            "site": "home",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 44,
+            "site": "neutral",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 35,
+            "score": 28,
+            "site": "neutral",
+            "name": "Georgia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 20,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 13,
+            "site": "road",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 36,
+            "score": 52,
+            "site": "home",
+            "name": "Georgia_St"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 34,
+            "site": "road",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 47,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 22,
+            "score": 40,
+            "site": "road",
+            "name": "Clemson"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 48,
+            "site": "road",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 3,
+            "site": "home",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 16,
+            "site": "road",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 13,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 38,
+            "site": "road",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 35,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 7,
+            "score": 24,
+            "site": "home",
+            "name": "Arkansas"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 13,
+            "site": "road",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 38,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 31,
+            "site": "road",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 20,
+            "site": "road",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 18,
+            "site": "home",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 34,
+            "site": "home",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 33,
+            "site": "road",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 63,
+            "score": 24,
+            "site": "home",
+            "name": "Mississippi_St"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 17,
+            "site": "road",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 62,
+            "site": "home",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 9,
+            "site": "road",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 34,
+            "site": "home",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 18,
+            "site": "road",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 17,
+            "site": "home",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 124,
+            "score": 13,
+            "site": "road",
+            "name": "West_Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 38,
+            "site": "road",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 17,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 38,
+            "site": "home",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 59,
+            "score": 21,
+            "site": "road",
+            "name": "Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 49,
+            "site": "home",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 27,
+            "site": "road",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 54,
+            "score": 35,
+            "site": "road",
+            "name": "Maryland"
+        },
+        "teamB": {
+            "id": 82,
+            "score": 19,
+            "site": "home",
+            "name": "Penn_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 61,
+            "score": 41,
+            "site": "road",
+            "name": "Minnesota"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 14,
+            "site": "home",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 49,
+            "site": "home",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 60,
+            "score": 7,
+            "site": "road",
+            "name": "Michigan_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 21,
+            "site": "home",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 69,
+            "score": 13,
+            "site": "road",
+            "name": "Nebraska"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 24,
+            "score": 48,
+            "site": "home",
+            "name": "Colorado"
+        },
+        "teamB": {
+            "id": 109,
+            "score": 42,
+            "site": "road",
+            "name": "UCLA"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 80,
+            "score": 35,
+            "site": "home",
+            "name": "Oregon"
+        },
+        "teamB": {
+            "id": 94,
+            "score": 14,
+            "site": "road",
+            "name": "Stanford"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 123,
+            "score": 38,
+            "site": "road",
+            "name": "Washington_St"
+        },
+        "teamB": {
+            "id": 81,
+            "score": 28,
+            "site": "home",
+            "name": "Oregon_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 33,
+            "score": 40,
+            "site": "road",
+            "name": "Fresno_St"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 27,
+            "site": "home",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 112,
+            "score": 28,
+            "site": "home",
+            "name": "USC"
+        },
+        "teamB": {
+            "id": 6,
+            "score": 27,
+            "site": "road",
+            "name": "Arizona_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 38,
+            "score": 39,
+            "site": "home",
+            "name": "Hawaii"
+        },
+        "teamB": {
+            "id": 71,
+            "score": 33,
+            "site": "road",
+            "name": "New_Mexico"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 51,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 55,
+            "score": 10,
+            "site": "road",
+            "name": "Massachusetts"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 46,
+            "score": 62,
+            "site": "road",
+            "name": "Kent"
+        },
+        "teamB": {
+            "id": 15,
+            "score": 24,
+            "site": "home",
+            "name": "Bowling_Green"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 16,
+            "score": 42,
+            "site": "home",
+            "name": "Buffalo"
+        },
+        "teamB": {
+            "id": 58,
+            "score": 10,
+            "site": "road",
+            "name": "Miami_OH"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 76,
+            "score": 24,
+            "site": "home",
+            "name": "Ohio"
+        },
+        "teamB": {
+            "id": 2,
+            "score": 10,
+            "site": "road",
+            "name": "Akron"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 38,
+            "site": "home",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 27,
+            "score": 31,
+            "site": "road",
+            "name": "E_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 120,
+            "score": 41,
+            "site": "home",
+            "name": "W_Michigan"
+        },
+        "teamB": {
+            "id": 103,
+            "score": 38,
+            "site": "road",
+            "name": "Toledo"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 18,
+            "score": 40,
+            "site": "road",
+            "name": "C_Michigan"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 10,
+            "site": "home",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 13,
+            "score": 52,
+            "site": "home",
+            "name": "Boise_St"
+        },
+        "teamB": {
+            "id": 25,
+            "score": 21,
+            "site": "road",
+            "name": "Colorado_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 55,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 28,
+            "score": 17,
+            "site": "road",
+            "name": "East_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 29,
+            "score": 38,
+            "site": "road",
+            "name": "FL_Atlantic"
+        },
+        "teamB": {
+            "id": 31,
+            "score": 19,
+            "site": "home",
+            "name": "Florida_Intl"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 35,
+            "site": "road",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 61,
+            "score": 7,
+            "site": "home",
+            "name": "Minnesota"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 45,
+            "site": "road",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 14,
+            "score": 31,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 63,
+            "site": "home",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 35,
+            "site": "road",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 40,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 38,
+            "site": "road",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 47,
+            "score": 38,
+            "site": "home",
+            "name": "Kentucky"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 35,
+            "site": "road",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 53,
+            "score": 42,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "teamB": {
+            "id": 65,
+            "score": 14,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 59,
+            "site": "home",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 121,
+            "score": 53,
+            "site": "road",
+            "name": "Wake_Forest"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 38,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 32,
+            "score": 22,
+            "site": "road",
+            "name": "Florida_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 38,
+            "site": "home",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 13,
+            "site": "road",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 25,
+            "site": "road",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 24,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 124,
+            "score": 24,
+            "site": "home",
+            "name": "West_Virginia"
+        },
+        "teamB": {
+            "id": 96,
+            "score": 6,
+            "site": "road",
+            "name": "TCU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 39,
+            "score": 56,
+            "site": "home",
+            "name": "Houston"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 21,
+            "site": "road",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 38,
+            "site": "home",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 10,
+            "site": "road",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 62,
+            "score": 59,
+            "site": "home",
+            "name": "Mississippi"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 42,
+            "site": "road",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 102,
+            "score": 24,
+            "site": "home",
+            "name": "Texas_Tech"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 23,
+            "site": "road",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 38,
+            "site": "home",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 9,
+            "score": 12,
+            "site": "road",
+            "name": "Army"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 28,
+            "site": "home",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 89,
+            "score": 24,
+            "site": "road",
+            "name": "SMU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 52,
+            "site": "home",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 116,
+            "score": 21,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 126,
+            "score": 10,
+            "site": "home",
+            "name": "WKU"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 7,
+            "site": "road",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 17,
+            "site": "home",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 36,
+            "score": 13,
+            "site": "road",
+            "name": "Georgia_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 125,
+            "score": 49,
+            "site": "road",
+            "name": "Wisconsin"
+        },
+        "teamB": {
+            "id": 59,
+            "score": 11,
+            "site": "home",
+            "name": "Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 24,
+            "site": "road",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 60,
+            "score": 0,
+            "site": "home",
+            "name": "Michigan_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 40,
+            "score": 23,
+            "site": "road",
+            "name": "Illinois"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 20,
+            "site": "home",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 69,
+            "score": 30,
+            "site": "home",
+            "name": "Nebraska"
+        },
+        "teamB": {
+            "id": 82,
+            "score": 23,
+            "site": "road",
+            "name": "Penn_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 112,
+            "score": 34,
+            "site": "road",
+            "name": "USC"
+        },
+        "teamB": {
+            "id": 5,
+            "score": 30,
+            "site": "home",
+            "name": "Arizona"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 27,
+            "site": "neutral",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 71,
+            "score": 20,
+            "site": "neutral",
+            "name": "New_Mexico"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 33,
+            "score": 35,
+            "site": "road",
+            "name": "Fresno_St"
+        },
+        "teamB": {
+            "id": 115,
+            "score": 16,
+            "site": "home",
+            "name": "Utah_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 87,
+            "score": 34,
+            "site": "home",
+            "name": "San_Diego_St"
+        },
+        "teamB": {
+            "id": 38,
+            "score": 10,
+            "site": "road",
+            "name": "Hawaii"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 34,
+            "site": "home",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 17,
+            "site": "road",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 24,
+            "score": 35,
+            "site": "road",
+            "name": "Colorado"
+        },
+        "teamB": {
+            "id": 94,
+            "score": 32,
+            "site": "home",
+            "name": "Stanford"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 122,
+            "score": 27,
+            "site": "home",
+            "name": "Washington"
+        },
+        "teamB": {
+            "id": 81,
+            "score": 21,
+            "site": "road",
+            "name": "Oregon_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 80,
+            "score": 43,
+            "site": "road",
+            "name": "Oregon"
+        },
+        "teamB": {
+            "id": 123,
+            "score": 29,
+            "site": "home",
+            "name": "Washington_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 27,
+            "site": "road",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 84,
+            "score": 20,
+            "site": "home",
+            "name": "Purdue"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 118,
+            "score": 31,
+            "site": "home",
+            "name": "Virginia"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 17,
+            "site": "road",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 109,
+            "score": 34,
+            "site": "home",
+            "name": "UCLA"
+        },
+        "teamB": {
+            "id": 19,
+            "score": 10,
+            "site": "road",
+            "name": "California"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 16,
+            "score": 42,
+            "site": "road",
+            "name": "Buffalo"
+        },
+        "teamB": {
+            "id": 15,
+            "score": 17,
+            "site": "home",
+            "name": "Bowling_Green"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 46,
+            "score": 69,
+            "site": "home",
+            "name": "Kent"
+        },
+        "teamB": {
+            "id": 2,
+            "score": 35,
+            "site": "road",
+            "name": "Akron"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 31,
+            "site": "home",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 25,
+            "site": "road",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 120,
+            "score": 52,
+            "site": "road",
+            "name": "W_Michigan"
+        },
+        "teamB": {
+            "id": 18,
+            "score": 44,
+            "site": "home",
+            "name": "C_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 103,
+            "score": 45,
+            "site": "road",
+            "name": "Toledo"
+        },
+        "teamB": {
+            "id": 27,
+            "score": 28,
+            "site": "home",
+            "name": "E_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 30,
+            "site": "home",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 105,
+            "score": 24,
+            "site": "road",
+            "name": "Tulane"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 51,
+            "score": 30,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 0,
+            "site": "road",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 61,
+            "score": 34,
+            "site": "home",
+            "name": "Minnesota"
+        },
+        "teamB": {
+            "id": 84,
+            "score": 31,
+            "site": "road",
+            "name": "Purdue"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 1,
+            "score": 28,
+            "site": "home",
+            "name": "Air_Force"
+        },
+        "teamB": {
+            "id": 71,
+            "score": 0,
+            "site": "road",
+            "name": "New_Mexico"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 29,
+            "score": 24,
+            "site": "home",
+            "name": "FL_Atlantic"
+        },
+        "teamB": {
+            "id": 55,
+            "score": 2,
+            "site": "road",
+            "name": "Massachusetts"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 28,
+            "site": "home",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 34,
+            "score": 27,
+            "site": "road",
+            "name": "Ga_Southern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 34,
+            "site": "home",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 4,
+            "score": 23,
+            "site": "road",
+            "name": "Appalachian_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 31,
+            "site": "home",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 24,
+            "site": "road",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 15,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 48,
+            "score": 14,
+            "site": "road",
+            "name": "Liberty"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 83,
+            "score": 47,
+            "site": "home",
+            "name": "Pittsburgh"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 14,
+            "site": "road",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 64,
+            "score": 17,
+            "site": "road",
+            "name": "Missouri"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 10,
+            "site": "home",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 28,
+            "score": 28,
+            "site": "road",
+            "name": "East_Carolina"
+        },
+        "teamB": {
+            "id": 97,
+            "score": 3,
+            "site": "home",
+            "name": "Temple"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 36,
+            "site": "road",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 108,
+            "score": 33,
+            "site": "home",
+            "name": "UCF"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 63,
+            "site": "home",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 3,
+            "site": "road",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 52,
+            "score": 27,
+            "site": "road",
+            "name": "LSU"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 24,
+            "site": "home",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 30,
+            "site": "home",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 17,
+            "site": "road",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 45,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 0,
+            "site": "road",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 73,
+            "score": 27,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "teamB": {
+            "id": 85,
+            "score": 17,
+            "site": "road",
+            "name": "Rice"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 41,
+            "site": "home",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 79,
+            "score": 13,
+            "site": "road",
+            "name": "Oklahoma_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 36,
+            "score": 31,
+            "site": "road",
+            "name": "Georgia_St"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 14,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 23,
+            "site": "road",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 93,
+            "score": 20,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 101,
+            "score": 47,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 45,
+            "site": "road",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 65,
+            "score": 20,
+            "site": "road",
+            "name": "MTSU"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 17,
+            "site": "home",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 38,
+            "site": "road",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 17,
+            "site": "home",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 126,
+            "score": 38,
+            "site": "home",
+            "name": "WKU"
+        },
+        "teamB": {
+            "id": 31,
+            "score": 21,
+            "site": "road",
+            "name": "Florida_Intl"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 42,
+            "site": "home",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 41,
+            "score": 35,
+            "site": "road",
+            "name": "Indiana"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 41,
+            "site": "road",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 82,
+            "score": 21,
+            "site": "home",
+            "name": "Penn_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 59,
+            "score": 48,
+            "site": "road",
+            "name": "Michigan"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 42,
+            "site": "home",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 40,
+            "score": 41,
+            "site": "road",
+            "name": "Illinois"
+        },
+        "teamB": {
+            "id": 69,
+            "score": 23,
+            "site": "home",
+            "name": "Nebraska"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 17,
+            "site": "home",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 125,
+            "score": 7,
+            "site": "road",
+            "name": "Wisconsin"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 80,
+            "score": 38,
+            "site": "home",
+            "name": "Oregon"
+        },
+        "teamB": {
+            "id": 109,
+            "score": 35,
+            "site": "road",
+            "name": "UCLA"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 112,
+            "score": 33,
+            "site": "road",
+            "name": "USC"
+        },
+        "teamB": {
+            "id": 114,
+            "score": 17,
+            "site": "home",
+            "name": "Utah"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 26,
+            "site": "home",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 87,
+            "score": 21,
+            "site": "road",
+            "name": "San_Diego_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 81,
+            "score": 31,
+            "site": "home",
+            "name": "Oregon_St"
+        },
+        "teamB": {
+            "id": 19,
+            "score": 27,
+            "site": "road",
+            "name": "California"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 122,
+            "score": 44,
+            "site": "home",
+            "name": "Washington"
+        },
+        "teamB": {
+            "id": 5,
+            "score": 27,
+            "site": "road",
+            "name": "Arizona"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 13,
+            "score": 40,
+            "site": "road",
+            "name": "Boise_St"
+        },
+        "teamB": {
+            "id": 38,
+            "score": 32,
+            "site": "home",
+            "name": "Hawaii"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 115,
+            "score": 41,
+            "site": "home",
+            "name": "Utah_St"
+        },
+        "teamB": {
+            "id": 71,
+            "score": 27,
+            "site": "road",
+            "name": "New_Mexico"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 31,
+            "site": "road",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 72,
+            "score": 17,
+            "site": "home",
+            "name": "North_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 108,
+            "score": 58,
+            "site": "road",
+            "name": "UCF"
+        },
+        "teamB": {
+            "id": 92,
+            "score": 46,
+            "site": "home",
+            "name": "South_Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 23,
+            "site": "road",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 99,
+            "score": 20,
+            "site": "home",
+            "name": "Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 26,
+            "site": "home",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 69,
+            "score": 20,
+            "site": "road",
+            "name": "Nebraska"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 94,
+            "score": 24,
+            "site": "road",
+            "name": "Stanford"
+        },
+        "teamB": {
+            "id": 19,
+            "score": 23,
+            "site": "home",
+            "name": "California"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 81,
+            "score": 41,
+            "site": "home",
+            "name": "Oregon_St"
+        },
+        "teamB": {
+            "id": 80,
+            "score": 38,
+            "site": "road",
+            "name": "Oregon"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 127,
+            "score": 45,
+            "site": "road",
+            "name": "Wyoming"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 14,
+            "site": "home",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 18,
+            "score": 31,
+            "site": "road",
+            "name": "C_Michigan"
+        },
+        "teamB": {
+            "id": 27,
+            "score": 23,
+            "site": "home",
+            "name": "E_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 48,
+            "score": 45,
+            "site": "home",
+            "name": "Liberty"
+        },
+        "teamB": {
+            "id": 55,
+            "score": 0,
+            "site": "road",
+            "name": "Massachusetts"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 14,
+            "score": 34,
+            "site": "home",
+            "name": "Boston_College"
+        },
+        "teamB": {
+            "id": 51,
+            "score": 27,
+            "site": "road",
+            "name": "Louisville"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 52,
+            "site": "home",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 83,
+            "score": 17,
+            "site": "road",
+            "name": "Pittsburgh"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 28,
+            "score": 52,
+            "site": "home",
+            "name": "East_Carolina"
+        },
+        "teamB": {
+            "id": 89,
+            "score": 38,
+            "site": "road",
+            "name": "SMU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 34,
+            "site": "home",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 47,
+            "score": 10,
+            "site": "road",
+            "name": "Kentucky"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 36,
+            "score": 30,
+            "site": "home",
+            "name": "Georgia_St"
+        },
+        "teamB": {
+            "id": 34,
+            "score": 24,
+            "site": "road",
+            "name": "Ga_Southern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 37,
+            "score": 56,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 33,
+            "site": "road",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 45,
+            "site": "road",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 16,
+            "site": "home",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 36,
+            "site": "road",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 29,
+            "site": "home",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 42,
+            "site": "home",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 10,
+            "score": 13,
+            "site": "road",
+            "name": "Auburn"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 90,
+            "score": 38,
+            "site": "road",
+            "name": "South_Alabama"
+        },
+        "teamB": {
+            "id": 8,
+            "score": 31,
+            "site": "home",
+            "name": "Arkansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 12,
+            "score": 32,
+            "site": "home",
+            "name": "Baylor"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 31,
+            "site": "road",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 59,
+            "site": "road",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 23,
+            "site": "home",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 70,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 20,
+            "site": "home",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 50,
+            "site": "home",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 102,
+            "score": 44,
+            "site": "road",
+            "name": "Texas_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 62,
+            "score": 31,
+            "site": "home",
+            "name": "Mississippi"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 24,
+            "site": "road",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 20,
+            "site": "home",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 52,
+            "score": 7,
+            "site": "road",
+            "name": "LSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 49,
+            "site": "road",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 101,
+            "score": 14,
+            "site": "home",
+            "name": "Texas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 113,
+            "score": 49,
+            "site": "home",
+            "name": "UT_San_Antonio"
+        },
+        "teamB": {
+            "id": 73,
+            "score": 17,
+            "site": "road",
+            "name": "North_Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 47,
+            "site": "home",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 10,
+            "site": "road",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 27,
+            "site": "home",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 54,
+            "score": 11,
+            "site": "road",
+            "name": "Maryland"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 86,
+            "score": 37,
+            "site": "road",
+            "name": "Rutgers"
+        },
+        "teamB": {
+            "id": 84,
+            "score": 30,
+            "site": "home",
+            "name": "Purdue"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 82,
+            "score": 27,
+            "site": "road",
+            "name": "Penn_St"
+        },
+        "teamB": {
+            "id": 59,
+            "score": 17,
+            "site": "home",
+            "name": "Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 60,
+            "score": 29,
+            "site": "home",
+            "name": "Michigan_St"
+        },
+        "teamB": {
+            "id": 74,
+            "score": 20,
+            "site": "road",
+            "name": "Northwestern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 109,
+            "score": 27,
+            "site": "home",
+            "name": "UCLA"
+        },
+        "teamB": {
+            "id": 5,
+            "score": 10,
+            "site": "road",
+            "name": "Arizona"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 38,
+            "score": 24,
+            "site": "home",
+            "name": "Hawaii"
+        },
+        "teamB": {
+            "id": 70,
+            "score": 21,
+            "site": "road",
+            "name": "Nevada"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 58,
+            "score": 38,
+            "site": "road",
+            "name": "Miami_OH"
+        },
+        "teamB": {
+            "id": 2,
+            "score": 7,
+            "site": "home",
+            "name": "Akron"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 16,
+            "score": 70,
+            "site": "home",
+            "name": "Buffalo"
+        },
+        "teamB": {
+            "id": 46,
+            "score": 41,
+            "site": "road",
+            "name": "Kent"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 27,
+            "site": "road",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 103,
+            "score": 24,
+            "site": "home",
+            "name": "Toledo"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 120,
+            "score": 30,
+            "site": "home",
+            "name": "W_Michigan"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 27,
+            "site": "road",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 76,
+            "score": 52,
+            "site": "home",
+            "name": "Ohio"
+        },
+        "teamB": {
+            "id": 15,
+            "score": 10,
+            "site": "road",
+            "name": "Bowling_Green"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 64,
+            "score": 41,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 0,
+            "site": "road",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 10,
+            "site": "road",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 7,
+            "site": "home",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 122,
+            "score": 24,
+            "site": "home",
+            "name": "Washington"
+        },
+        "teamB": {
+            "id": 114,
+            "score": 21,
+            "site": "road",
+            "name": "Utah"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 24,
+            "score": 20,
+            "site": "home",
+            "name": "Colorado"
+        },
+        "teamB": {
+            "id": 87,
+            "score": 10,
+            "site": "road",
+            "name": "San_Diego_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 1,
+            "score": 35,
+            "site": "road",
+            "name": "Air_Force"
+        },
+        "teamB": {
+            "id": 115,
+            "score": 7,
+            "site": "home",
+            "name": "Utah_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 50,
+            "score": 42,
+            "site": "road",
+            "name": "Louisiana_Tech"
+        },
+        "teamB": {
+            "id": 73,
+            "score": 31,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 49,
+            "score": 24,
+            "site": "road",
+            "name": "Louisiana"
+        },
+        "teamB": {
+            "id": 4,
+            "score": 21,
+            "site": "home",
+            "name": "Appalachian_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 47,
+            "score": 41,
+            "site": "home",
+            "name": "Kentucky"
+        },
+        "teamB": {
+            "id": 91,
+            "score": 18,
+            "site": "road",
+            "name": "South_Carolina"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 68,
+            "score": 23,
+            "site": "home",
+            "name": "NC_State"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 13,
+            "site": "road",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 75,
+            "score": 45,
+            "site": "home",
+            "name": "Notre_Dame"
+        },
+        "teamB": {
+            "id": 95,
+            "score": 21,
+            "site": "road",
+            "name": "Syracuse"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 118,
+            "score": 43,
+            "site": "home",
+            "name": "Virginia"
+        },
+        "teamB": {
+            "id": 14,
+            "score": 32,
+            "site": "road",
+            "name": "Boston_College"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 45,
+            "site": "road",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 119,
+            "score": 10,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 30,
+            "score": 31,
+            "site": "road",
+            "name": "Florida"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 19,
+            "site": "home",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 43,
+            "score": 42,
+            "site": "home",
+            "name": "Iowa_St"
+        },
+        "teamB": {
+            "id": 124,
+            "score": 6,
+            "site": "road",
+            "name": "West_Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 27,
+            "site": "home",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 14,
+            "site": "road",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 102,
+            "score": 16,
+            "site": "home",
+            "name": "Texas_Tech"
+        },
+        "teamB": {
+            "id": 44,
+            "score": 13,
+            "site": "road",
+            "name": "Kansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 31,
+            "site": "road",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 10,
+            "score": 20,
+            "site": "home",
+            "name": "Auburn"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 99,
+            "score": 69,
+            "site": "road",
+            "name": "Texas"
+        },
+        "teamB": {
+            "id": 45,
+            "score": 31,
+            "site": "home",
+            "name": "Kansas_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 29,
+            "site": "home",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 79,
+            "score": 22,
+            "site": "road",
+            "name": "Oklahoma_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 52,
+            "site": "road",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 60,
+            "score": 12,
+            "site": "home",
+            "name": "Michigan_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 69,
+            "score": 37,
+            "site": "road",
+            "name": "Nebraska"
+        },
+        "teamB": {
+            "id": 84,
+            "score": 27,
+            "site": "home",
+            "name": "Purdue"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 82,
+            "score": 23,
+            "site": "road",
+            "name": "Penn_St"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 7,
+            "site": "home",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 35,
+            "site": "road",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 21,
+            "site": "home",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 41,
+            "score": 14,
+            "site": "road",
+            "name": "Indiana"
+        },
+        "teamB": {
+            "id": 125,
+            "score": 6,
+            "site": "home",
+            "name": "Wisconsin"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 34,
+            "score": 20,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "teamB": {
+            "id": 29,
+            "score": 3,
+            "site": "road",
+            "name": "FL_Atlantic"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 24,
+            "score": 24,
+            "site": "road",
+            "name": "Colorado"
+        },
+        "teamB": {
+            "id": 5,
+            "score": 13,
+            "site": "home",
+            "name": "Arizona"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 109,
+            "score": 25,
+            "site": "road",
+            "name": "UCLA"
+        },
+        "teamB": {
+            "id": 6,
+            "score": 18,
+            "site": "home",
+            "name": "Arizona_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 71,
+            "score": 17,
+            "site": "home",
+            "name": "New_Mexico"
+        },
+        "teamB": {
+            "id": 127,
+            "score": 16,
+            "site": "road",
+            "name": "Wyoming"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 114,
+            "score": 30,
+            "site": "home",
+            "name": "Utah"
+        },
+        "teamB": {
+            "id": 81,
+            "score": 24,
+            "site": "road",
+            "name": "Oregon_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 70,
+            "score": 37,
+            "site": "home",
+            "name": "Nevada"
+        },
+        "teamB": {
+            "id": 33,
+            "score": 26,
+            "site": "road",
+            "name": "Fresno_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 87,
+            "score": 29,
+            "site": "home",
+            "name": "San_Diego_St"
+        },
+        "teamB": {
+            "id": 25,
+            "score": 17,
+            "site": "road",
+            "name": "Colorado_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 35,
+            "site": "road",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 38,
+            "score": 24,
+            "site": "home",
+            "name": "Hawaii"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 94,
+            "score": 31,
+            "site": "road",
+            "name": "Stanford"
+        },
+        "teamB": {
+            "id": 122,
+            "score": 26,
+            "site": "home",
+            "name": "Washington"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 19,
+            "score": 21,
+            "site": "home",
+            "name": "California"
+        },
+        "teamB": {
+            "id": 80,
+            "score": 17,
+            "site": "road",
+            "name": "Oregon"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 2,
+            "score": 31,
+            "site": "home",
+            "name": "Akron"
+        },
+        "teamB": {
+            "id": 15,
+            "score": 3,
+            "site": "road",
+            "name": "Bowling_Green"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 45,
+            "site": "road",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 18,
+            "score": 20,
+            "site": "home",
+            "name": "C_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 27,
+            "score": 53,
+            "site": "road",
+            "name": "E_Michigan"
+        },
+        "teamB": {
+            "id": 120,
+            "score": 42,
+            "site": "home",
+            "name": "W_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 103,
+            "score": 41,
+            "site": "road",
+            "name": "Toledo"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 24,
+            "site": "home",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 85,
+            "score": 20,
+            "site": "road",
+            "name": "Rice"
+        },
+        "teamB": {
+            "id": 53,
+            "score": 0,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 104,
+            "score": 29,
+            "site": "road",
+            "name": "Troy"
+        },
+        "teamB": {
+            "id": 90,
+            "score": 0,
+            "site": "home",
+            "name": "South_Alabama"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 8,
+            "score": 48,
+            "site": "home",
+            "name": "Arkansas_St"
+        },
+        "teamB": {
+            "id": 110,
+            "score": 15,
+            "site": "road",
+            "name": "ULM"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 64,
+            "score": 50,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 48,
+            "site": "road",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 55,
+            "site": "road",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 52,
+            "score": 17,
+            "site": "home",
+            "name": "LSU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 105,
+            "score": 35,
+            "site": "home",
+            "name": "Tulane"
+        },
+        "teamB": {
+            "id": 56,
+            "score": 21,
+            "site": "road",
+            "name": "Memphis"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 106,
+            "score": 19,
+            "site": "road",
+            "name": "Tulsa"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 6,
+            "site": "home",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 57,
+            "score": 48,
+            "site": "road",
+            "name": "Miami_FL"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 0,
+            "site": "home",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 22,
+            "site": "home",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 17,
+            "score": 17,
+            "site": "road",
+            "name": "BYU"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 112,
+            "score": 38,
+            "site": "home",
+            "name": "USC"
+        },
+        "teamB": {
+            "id": 123,
+            "score": 13,
+            "site": "road",
+            "name": "Washington_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 126,
+            "score": 37,
+            "site": "road",
+            "name": "WKU"
+        },
+        "teamB": {
+            "id": 20,
+            "score": 19,
+            "site": "home",
+            "name": "Charlotte"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 93,
+            "score": 45,
+            "site": "home",
+            "name": "Southern_Miss"
+        },
+        "teamB": {
+            "id": 29,
+            "score": 31,
+            "site": "road",
+            "name": "FL_Atlantic"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 83,
+            "score": 34,
+            "site": "road",
+            "name": "Pittsburgh"
+        },
+        "teamB": {
+            "id": 37,
+            "score": 20,
+            "site": "home",
+            "name": "Georgia_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 6,
+            "score": 70,
+            "site": "road",
+            "name": "Arizona_St"
+        },
+        "teamB": {
+            "id": 5,
+            "score": 7,
+            "site": "home",
+            "name": "Arizona"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 30,
+            "site": "home",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 70,
+            "score": 20,
+            "site": "road",
+            "name": "Nevada"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 73,
+            "score": 45,
+            "site": "home",
+            "name": "North_Texas"
+        },
+        "teamB": {
+            "id": 116,
+            "score": 43,
+            "site": "road",
+            "name": "UTEP"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 15,
+            "site": "home",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 67,
+            "score": 0,
+            "site": "road",
+            "name": "Navy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 82,
+            "score": 39,
+            "site": "home",
+            "name": "Penn_St"
+        },
+        "teamB": {
+            "id": 60,
+            "score": 24,
+            "site": "road",
+            "name": "Michigan_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 119,
+            "score": 33,
+            "site": "home",
+            "name": "Virginia_Tech"
+        },
+        "teamB": {
+            "id": 118,
+            "score": 15,
+            "site": "road",
+            "name": "Virginia"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 42,
+            "score": 28,
+            "site": "home",
+            "name": "Iowa"
+        },
+        "teamB": {
+            "id": 125,
+            "score": 7,
+            "site": "road",
+            "name": "Wisconsin"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 61,
+            "score": 24,
+            "site": "road",
+            "name": "Minnesota"
+        },
+        "teamB": {
+            "id": 69,
+            "score": 17,
+            "site": "home",
+            "name": "Nebraska"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 74,
+            "score": 28,
+            "site": "home",
+            "name": "Northwestern"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 10,
+            "site": "road",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 86,
+            "score": 27,
+            "site": "road",
+            "name": "Rutgers"
+        },
+        "teamB": {
+            "id": 54,
+            "score": 24,
+            "site": "home",
+            "name": "Maryland"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 114,
+            "score": 38,
+            "site": "road",
+            "name": "Utah"
+        },
+        "teamB": {
+            "id": 24,
+            "score": 21,
+            "site": "home",
+            "name": "Colorado"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 17,
+            "score": 28,
+            "site": "home",
+            "name": "BYU"
+        },
+        "teamB": {
+            "id": 87,
+            "score": 14,
+            "site": "road",
+            "name": "San_Diego_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 71,
+            "score": 49,
+            "site": "home",
+            "name": "New_Mexico"
+        },
+        "teamB": {
+            "id": 33,
+            "score": 39,
+            "site": "road",
+            "name": "Fresno_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 13,
+            "score": 17,
+            "site": "road",
+            "name": "Boise_St"
+        },
+        "teamB": {
+            "id": 127,
+            "score": 9,
+            "site": "home",
+            "name": "Wyoming"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 94,
+            "score": 27,
+            "site": "road",
+            "name": "Stanford"
+        },
+        "teamB": {
+            "id": 81,
+            "score": 24,
+            "site": "home",
+            "name": "Oregon_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 112,
+            "score": 43,
+            "site": "road",
+            "name": "USC"
+        },
+        "teamB": {
+            "id": 109,
+            "score": 38,
+            "site": "home",
+            "name": "UCLA"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 38,
+            "score": 38,
+            "site": "home",
+            "name": "Hawaii"
+        },
+        "teamB": {
+            "id": 111,
+            "score": 21,
+            "site": "road",
+            "name": "UNLV"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 30,
+            "site": "home",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 120,
+            "score": 27,
+            "site": "road",
+            "name": "W_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 16,
+            "score": 56,
+            "site": "home",
+            "name": "Buffalo"
+        },
+        "teamB": {
+            "id": 2,
+            "score": 7,
+            "site": "road",
+            "name": "Akron"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 27,
+            "score": 41,
+            "site": "home",
+            "name": "E_Michigan"
+        },
+        "teamB": {
+            "id": 66,
+            "score": 33,
+            "site": "road",
+            "name": "N_Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 4,
+            "score": 34,
+            "site": "road",
+            "name": "Appalachian_St"
+        },
+        "teamB": {
+            "id": 34,
+            "score": 26,
+            "site": "home",
+            "name": "Ga_Southern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 103,
+            "score": 24,
+            "site": "home",
+            "name": "Toledo"
+        },
+        "teamB": {
+            "id": 18,
+            "score": 23,
+            "site": "road",
+            "name": "C_Michigan"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 52,
+            "score": 37,
+            "site": "road",
+            "name": "LSU"
+        },
+        "teamB": {
+            "id": 30,
+            "score": 34,
+            "site": "home",
+            "name": "Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 79,
+            "score": 42,
+            "site": "road",
+            "name": "Oklahoma_St"
+        },
+        "teamB": {
+            "id": 12,
+            "score": 3,
+            "site": "home",
+            "name": "Baylor"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 10,
+            "score": 24,
+            "site": "road",
+            "name": "Auburn"
+        },
+        "teamB": {
+            "id": 63,
+            "score": 10,
+            "site": "home",
+            "name": "Mississippi_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 107,
+            "score": 21,
+            "site": "road",
+            "name": "UAB"
+        },
+        "teamB": {
+            "id": 85,
+            "score": 16,
+            "site": "home",
+            "name": "Rice"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 72,
+            "score": 62,
+            "site": "road",
+            "name": "North_Carolina"
+        },
+        "teamB": {
+            "id": 57,
+            "score": 26,
+            "site": "home",
+            "name": "Miami_FL"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 56,
+            "score": 30,
+            "site": "home",
+            "name": "Memphis"
+        },
+        "teamB": {
+            "id": 39,
+            "score": 27,
+            "site": "road",
+            "name": "Houston"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 23,
+            "score": 42,
+            "site": "road",
+            "name": "Coastal_Car"
+        },
+        "teamB": {
+            "id": 104,
+            "score": 38,
+            "site": "home",
+            "name": "Troy"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 51,
+            "score": 45,
+            "site": "home",
+            "name": "Louisville"
+        },
+        "teamB": {
+            "id": 121,
+            "score": 21,
+            "site": "road",
+            "name": "Wake_Forest"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 32,
+            "score": 56,
+            "site": "home",
+            "name": "Florida_St"
+        },
+        "teamB": {
+            "id": 26,
+            "score": 35,
+            "site": "road",
+            "name": "Duke"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 98,
+            "score": 42,
+            "site": "road",
+            "name": "Tennessee"
+        },
+        "teamB": {
+            "id": 117,
+            "score": 17,
+            "site": "home",
+            "name": "Vanderbilt"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 52,
+            "site": "road",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 7,
+            "score": 3,
+            "site": "home",
+            "name": "Arkansas"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 35,
+            "score": 49,
+            "site": "road",
+            "name": "Georgia"
+        },
+        "teamB": {
+            "id": 64,
+            "score": 14,
+            "site": "home",
+            "name": "Missouri"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 96,
+            "score": 52,
+            "site": "home",
+            "name": "TCU"
+        },
+        "teamB": {
+            "id": 50,
+            "score": 10,
+            "site": "road",
+            "name": "Louisiana_Tech"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 11,
+            "score": 38,
+            "site": "neutral",
+            "name": "Ball_St"
+        },
+        "teamB": {
+            "id": 16,
+            "score": 28,
+            "site": "neutral",
+            "name": "Buffalo"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 107,
+            "score": 22,
+            "site": "road",
+            "name": "UAB"
+        },
+        "teamB": {
+            "id": 53,
+            "score": 13,
+            "site": "home",
+            "name": "Marshall"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 69,
+            "score": 28,
+            "site": "road",
+            "name": "Nebraska"
+        },
+        "teamB": {
+            "id": 86,
+            "score": 21,
+            "site": "home",
+            "name": "Rutgers"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 80,
+            "score": 31,
+            "site": "road",
+            "name": "Oregon"
+        },
+        "teamB": {
+            "id": 112,
+            "score": 24,
+            "site": "home",
+            "name": "USC"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 100,
+            "score": 34,
+            "site": "road",
+            "name": "Texas_A&M"
+        },
+        "teamB": {
+            "id": 98,
+            "score": 13,
+            "site": "home",
+            "name": "Tennessee"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 9,
+            "score": 10,
+            "site": "home",
+            "name": "Army"
+        },
+        "teamB": {
+            "id": 1,
+            "score": 7,
+            "site": "road",
+            "name": "Air_Force"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 78,
+            "score": 27,
+            "site": "neutral",
+            "name": "Oklahoma"
+        },
+        "teamB": {
+            "id": 43,
+            "score": 21,
+            "site": "neutral",
+            "name": "Iowa_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 52,
+            "score": 53,
+            "site": "home",
+            "name": "LSU"
+        },
+        "teamB": {
+            "id": 62,
+            "score": 48,
+            "site": "road",
+            "name": "Mississippi"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 63,
+            "score": 51,
+            "site": "home",
+            "name": "Mississippi_St"
+        },
+        "teamB": {
+            "id": 64,
+            "score": 32,
+            "site": "road",
+            "name": "Missouri"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 22,
+            "score": 34,
+            "site": "neutral",
+            "name": "Clemson"
+        },
+        "teamB": {
+            "id": 75,
+            "score": 10,
+            "site": "neutral",
+            "name": "Notre_Dame"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 3,
+            "score": 52,
+            "site": "neutral",
+            "name": "Alabama"
+        },
+        "teamB": {
+            "id": 30,
+            "score": 46,
+            "site": "neutral",
+            "name": "Florida"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 21,
+            "score": 27,
+            "site": "home",
+            "name": "Cincinnati"
+        },
+        "teamB": {
+            "id": 106,
+            "score": 24,
+            "site": "road",
+            "name": "Tulsa"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 77,
+            "score": 22,
+            "site": "neutral",
+            "name": "Ohio_St"
+        },
+        "teamB": {
+            "id": 74,
+            "score": 10,
+            "site": "neutral",
+            "name": "Northwestern"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 88,
+            "score": 34,
+            "site": "neutral",
+            "name": "San_Jose_St"
+        },
+        "teamB": {
+            "id": 13,
+            "score": 20,
+            "site": "neutral",
+            "name": "Boise_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 114,
+            "score": 45,
+            "site": "home",
+            "name": "Utah"
+        },
+        "teamB": {
+            "id": 123,
+            "score": 28,
+            "site": "road",
+            "name": "Washington_St"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 125,
+            "score": 20,
+            "site": "home",
+            "name": "Wisconsin"
+        },
+        "teamB": {
+            "id": 61,
+            "score": 17,
+            "site": "road",
+            "name": "Minnesota"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 82,
+            "score": 56,
+            "site": "home",
+            "name": "Penn_St"
+        },
+        "teamB": {
+            "id": 40,
+            "score": 21,
+            "site": "road",
+            "name": "Illinois"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 94,
+            "score": 48,
+            "site": "road",
+            "name": "Stanford"
+        },
+        "teamB": {
+            "id": 109,
+            "score": 47,
+            "site": "home",
+            "name": "UCLA"
+        },
+        "conference": false
+    },
+    {
+        "teamA": {
+            "id": 6,
+            "score": 46,
+            "site": "road",
+            "name": "Arizona_St"
+        },
+        "teamB": {
+            "id": 81,
+            "score": 33,
+            "site": "home",
+            "name": "Oregon_St"
+        },
+        "conference": false
+    }
+]
